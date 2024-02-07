@@ -50,7 +50,9 @@
 /obj/item/stack/material/Value(base)
 	if(!material)
 		return ..()
-	return material.value * amount
+	. = material.value * amount
+	if(reinf_material)
+		. += reinf_material.value * amount
 
 /obj/item/ore/Value(base)
 	return material ? material.value : 0

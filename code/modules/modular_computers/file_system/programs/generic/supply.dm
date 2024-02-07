@@ -67,13 +67,10 @@
 	var/current_log_page = 1
 	var/log_page_max
 
-/datum/computer_file/program/supply/New()
+/datum/computer_file/program/supply/OnStoreFile(obj/item/stock_parts/computer/hard_drive/HD)
 	. = ..()
-	var/obj/item/stock_parts/computer/hard_drive/HD = src.holder
-	SSticker.OnRoundstart(CALLBACK(src, .proc/OnRoundStart, HD))
-
-/datum/computer_file/program/supply/proc/OnRoundStart(obj/item/stock_parts/computer/hard_drive/HD)
-	if(!istype(HD))
+	var/atom/atom_holder = holder
+	if(!istype(atom_holder))
 		return
 
 	var/atom/stored_loc = HD.loc
@@ -639,9 +636,7 @@
 				if(get_area(receiving) != get_area(computer) && program_type != "master")
 					to_chat(usr, SPAN_WARNING("ERROR: Receiving beacon is too far from \the [computer]."))
 					return
-				if(!SSsupply.Buy(receiving, account, shopping_list, FALSE, null, faction))
-					to_chat(usr, SPAN_WARNING("ERROR: Purchase failed."))
-					return FALSE
+				SSsupply.Buy(receiving, account, shopping_list)
 				ResetShopList()
 				return TRUE
 
@@ -698,10 +693,6 @@
 	dat += trade_screen == OFFER_SCREEN ? "<b><u>Export</u></b>" :"<A href='?src=\ref[src];PRG_trade_screen=[OFFER_SCREEN]'>Export</A>"
 	dat += " | "
 	dat += trade_screen == CART_SCREEN ? "<b><u>Cart</u></b>" :"<A href='?src=\ref[src];PRG_trade_screen=[CART_SCREEN]'>Cart</A>"
-	dat += " | "
-	dat += trade_screen == LOG_SCREEN ? "<b><u>Logs</u></b>" :"<A href='?src=\ref[src];PRG_trade_screen=[LOG_SCREEN]'>Logs</A>"
-	dat += " | "
-	dat += "<A href='?src=\ref[src];PC_exit=1'>Exit</A>"
 
 	dat += "<hr>"
 
@@ -818,20 +809,11 @@
 				if(is_path_in_list(/mob/living/carbon/human, contents_incl_self))
 					continue
 				var/cost = 0
-				var/normal_cost = 0
+				dat += "- [AM.name] ([get_value(AM)] [GLOB.using_map.local_currency_name_short])<br>"
+				cost += get_value(AM)
 				for(var/atom/movable/item in reverselist(contents_incl_self))
-					cost += SSsupply.GetExportValue(item)
-					normal_cost += get_value(item)
-				if(!cost)
-					continue
-				dat += "- [AM.name] ([cost] [GLOB.using_map.local_currency_name_short])"
-				if(cost < normal_cost)
-					var/percent_diff = round(cost / normal_cost, 0.01) * 100
-					dat += " <span style='color: [COLOR_RED]'>([percent_diff]%)</span>"
-				else if(cost > normal_cost)
-					var/percent_diff = round(cost / normal_cost, 0.01) * 100
-					dat += " <span style='color: [COLOR_GREEN]'>([percent_diff]%)</span>"
-				dat += "<br>"
+					dat += "- - [item.name] ([get_value(item)] [GLOB.using_map.local_currency_name_short])<br>"
+					cost += get_value(item)
 				total_cost += cost
 			if(total_cost)
 				dat += "<b>Total export cost: [total_cost] [GLOB.using_map.local_currency_name_short]</b>"
@@ -858,36 +840,7 @@
 				dat += "<br>"
 			dat += "<br>"
 
-	if(trade_screen == LOG_SCREEN)
-		dat += log_screen == LOG_SHIPPING ? "<b><u>Shipping</u></b>" :"<A href='?src=\ref[src];PRG_log_screen=[LOG_SHIPPING]'>Shipping</A>"
-		dat += " | "
-		dat += log_screen == LOG_EXPORT ? "<b><u>Export</u></b>" :"<A href='?src=\ref[src];PRG_log_screen=[LOG_EXPORT]'>Export</A>"
-
-		dat += "<hr>"
-
-		switch(log_screen)
-			if(LOG_SHIPPING)
-				var/list/L = SSsupply.shipping_log.Copy()
-				for(var/list/log in reverseRange(L))
-					dat += "Time: [log["time"]]<br>"
-					dat += "Account: [log["ordering_acct"]]<br>"
-					dat += "Link: [log["assoc_faction"]]<br>"
-					dat += "Total invoice: [log["total_paid"]] [GLOB.using_map.local_currency_name_short]<br>"
-					dat += "Articles bought: [log["contents"]]<br>"
-					dat += "<A href='?src=\ref[src];PRG_print=[log["id"]]'>Print</A>"
-					dat += "<hr>"
-			if(LOG_EXPORT)
-				var/list/L = SSsupply.export_log.Copy()
-				for(var/list/log in reverseRange(L))
-					dat += "Time: [log["time"]]<br>"
-					dat += "Account: [log["ordering_acct"]]<br>"
-					dat += "Link: [log["assoc_faction"]]<br>"
-					dat += "Total invoice: [log["total_paid"]] [GLOB.using_map.local_currency_name_short]<br>"
-					dat += "Articles sold: [log["contents"]]<br>"
-					dat += "<A href='?src=\ref[src];PRG_print=[log["id"]]'>Print</A>"
-					dat += "<hr>"
-
-	var/datum/browser/popup = new(user, "supply_prg", "Trade Network", 600, 680)
+	var/datum/browser/popup = new(user, "supply_prg", "Trade Network")
 	popup.set_content(dat)
 	popup.open()
 	onclose(user, "supply_prg")

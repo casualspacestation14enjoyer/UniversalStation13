@@ -11,9 +11,10 @@ GLOBAL_LIST_INIT(explosion_sound,\
 
 GLOBAL_LIST_INIT(spark_sound,\
 	list(\
-		'sound/weapons/gunshot/us13/spark1.ogg',\
-		'sound/weapons/gunshot/us13/spark2.ogg',\
-		'sound/weapons/gunshot/us13/spark3.ogg'))
+		'sound/effects/sparks1.ogg',\
+		'sound/effects/sparks2.ogg',\
+		'sound/effects/sparks3.ogg',\
+		'sound/effects/sparks4.ogg'))
 
 GLOBAL_LIST_INIT(rustle_sound,\
 	list(\
@@ -112,12 +113,6 @@ GLOBAL_LIST_INIT(chop_sound,\
 		'sound/weapons/chop2.ogg',\
 		'sound/weapons/chop3.ogg'))
 
-GLOBAL_LIST_INIT(sharp_sound,\
-	list(\
-		'sound/weapons/stab1.ogg',\
-		'sound/weapons/stab2.ogg',\
-		'sound/weapons/stab3.ogg'))
-
 GLOBAL_LIST_INIT(glasscrack_sound,\
 	list(\
 		'sound/effects/glass_crack1.ogg',\
@@ -130,10 +125,6 @@ GLOBAL_LIST_INIT(tray_hit_sound,\
 		'sound/items/trayhit1.ogg',\
 		'sound/items/trayhit2.ogg'))
 
-GLOBAL_LIST_INIT(jackboot_sound,\
-	list(\
-		'sound/effects/footstep/jackboot1.ogg',\
-		'sound/effects/footstep/jackboot2.ogg'))
 
 GLOBAL_LIST_INIT(t12_sound,\
 	list(\
@@ -141,7 +132,7 @@ GLOBAL_LIST_INIT(t12_sound,\
 	'sound/weapons/gunshot/autorifle-2.ogg',\
 	'sound/weapons/gunshot/autorifle-3.ogg'))
 
-GLOBAL_LIST_INIT(stunstick_sound,\
+GLOBAL_LIST_INIT(mp38_sound,\
 	list(\
-		'sound/weapons/gunshot/us13/stunstick_hit1.ogg',\
-		'sound/weapons/gunshot/us13/stunstick_hit2.ogg'))
+	'sound/weapons/gunshot/mp38_1.ogg',
+	'sound/weapons/gunshot/mp38_2.ogg'))

@@ -8,15 +8,22 @@
 // Trade categories for the sake of standardization
 #define TRADE_CAT_WEAPONS "Weapons"
 #define TRADE_CAT_AMMO "Ammunition"
+#define TRADE_CAT_ARTILLERY "Artillery"
 #define TRADE_CAT_ARMOR "Armor"
+#define TRADE_CAT_EQUIPMENT "Equipment"
 #define TRADE_CAT_CLOTHING "Clothing"
+#define TRADE_CAT_SPACESUIT "Space Suits"
 #define TRADE_CAT_VOIDSUIT "Void Suits"
 #define TRADE_CAT_TOOLS "Tools"
 #define TRADE_CAT_RESEARCH "Research"
-#define TRADE_CAT_COMPONENTS "Stock Parts & Components"
+#define TRADE_CAT_COMPONENTS "Stock Parts and Components"
 #define TRADE_CAT_MATERIALS "Materials"
 #define TRADE_CAT_RIG "RIG"
 #define TRADE_CAT_RIG_MODULES "RIG Modules"
+#define TRADE_CAT_MEDICAL "Medical"
+#define TRADE_CAT_MEDKIT "Medical Kits"
+#define TRADE_CAT_CHEMICAL "Chemical"
+#define TRADE_CAT_CHEMCARTS "Chemical Cartridges"
 
 // As in - faction is a part of us
 #define FACTION_STATE_PROTECTORATE 4

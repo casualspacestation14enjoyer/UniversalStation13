@@ -133,7 +133,7 @@ var/const/FALLOFF_SOUNDS = 0.5
 /client/proc/playtitlemusic()
 	if (get_preference_value(/datum/client_preference/play_lobby_music) == GLOB.PREF_YES)
 		sound_to(src, GLOB.using_map.lobby_track.get_sound())
-	//to_chat(src, GLOB.using_map.lobby_track.get_info())
+		to_chat(src, GLOB.using_map.lobby_track.get_info())
 
 /proc/get_rand_frequency()
 	return rand(32000, 55000) //Frequency stuff only works with 45kbps oggs.
@@ -162,9 +162,7 @@ var/const/FALLOFF_SOUNDS = 0.5
 			if ("glasscrack") soundin = pick(GLOB.glasscrack_sound)
 			if ("tray_hit") soundin = pick(GLOB.tray_hit_sound)
 			if ("gun_t12") soundin = pick(GLOB.t12_sound)
-			if ("sharp_sound") soundin = pick(GLOB.sharp_sound)
-			if("stunstick_sound") soundin = pick(GLOB.stunstick_sound)
-			if("jackboot_sound") soundin = pick(GLOB.jackboot_sound)
+			if ("gun_mp38") soundin = pick(GLOB.mp38_sound)
 	return soundin
 
 /client/verb/stop_sounds()

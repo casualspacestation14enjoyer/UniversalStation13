@@ -41,6 +41,26 @@ SUBSYSTEM_DEF(supply)
 		var/datum/trade_faction/TF = new faction_type
 		factions[TF.name] = TF
 
+	// Factions that aren't set in relationship list of the datum are set to neutral.
+	for(var/tf in factions)
+		var/datum/trade_faction/TF = factions[tf]
+		for(var/tf2 in factions)
+			var/datum/trade_faction/TF2 = factions[tf2]
+			if(TF == TF2)
+				// Technically not, but this will be how we declare same faction relations for now
+				TF.relationship[TF2.name] = FACTION_STATE_PROTECTORATE
+				continue
+			// This ensures that relations are always mirrored between two datums
+			SetFactionRelations(TF, TF2, TF.relationship[TF2])
+
+	// Now we set it to neutral for the missing ones
+	for(var/tf in factions)
+		var/datum/trade_faction/TF = factions[tf]
+		for(var/tf2 in factions)
+			var/datum/trade_faction/TF2 = factions[tf2]
+			if(!(TF2.name in TF.relationship))
+				SetFactionRelations(TF, TF2, FACTION_STATE_NEUTRAL)
+
 	InitTradeStations()
 
 /datum/controller/subsystem/supply/Destroy()
@@ -180,15 +200,7 @@ SUBSYSTEM_DEF(supply)
 	if(!seller_faction)
 		return
 
-	switch(seller_faction.relationship[buyer_faction.name])
-		if(FACTION_STATE_ANIMOSITY)
-			. *= 1.25
-		if(FACTION_STATE_RIVAL)
-			. *= 1.5
-		if(FACTION_STATE_ENEMY)
-			. *= 2.0
-		if(FACTION_STATE_WAR) // Normally that'd be an embargo, but some outlaw traders exist
-			. *= 3.0
+	. *= station.GetFactionMarkup(buyer_faction)
 
 	if(buyer_faction.name in seller_faction.trade_markup)
 		. *= seller_faction.trade_markup[buyer_faction.name]
@@ -286,9 +298,13 @@ SUBSYSTEM_DEF(supply)
 	if(QDELETED(senderBeacon) || !istype(senderBeacon) || !account || !RecursiveLen(shopList))
 		return FALSE
 
-	var/obj/structure/closet/secure_closet/personal/trade/C
 	var/count_of_all = CollectCountsFrom(shopList)
 	var/price_for_all = CollectPriceForList(shopList)
+
+	if(price_for_all && account.money < price_for_all)
+		return FALSE
+
+	var/obj/structure/closet/secure_closet/personal/trade/C
 	if(isnum(count_of_all) && count_of_all > 1)
 		C = senderBeacon.DropItem(/obj/structure/closet/secure_closet/personal/trade)
 		if(is_order)
@@ -296,8 +312,6 @@ SUBSYSTEM_DEF(supply)
 			C.registered_name = buyer_name
 			C.name = "[initial(C.name)] ([C.registered_name])"
 			C.update_icon()
-	if(price_for_all && account.money < price_for_all)
-		return FALSE
 
 	var/order_contents_info
 	var/invoice_location
@@ -369,7 +383,10 @@ SUBSYSTEM_DEF(supply)
 				qdel(item)
 				++export_count
 			else if(item != AM)
-				item.forceMove(get_turf(AM))		// Should be the same tile
+				if(!isobj(item) || !ismob(item))
+					qdel(item)
+				else
+					item.forceMove(get_turf(AM))		// Should be the same tile
 
 		// The max is a soft cap
 		if(export_count > 100)

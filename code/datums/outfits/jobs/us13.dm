@@ -12,10 +12,17 @@
 /decl/hierarchy/outfit/job/citizen/worker
 	name = OUTFIT_JOB_NAME("Factory Worker")
 
+	uniform = /obj/item/clothing/under/fw_uniform
 	suit = /obj/item/clothing/suit/storage/hazardvest
 	head = /obj/item/clothing/head/hardhat
 
 	id_types = list(/obj/item/card/id/civilian/worker)
+
+/decl/hierarchy/outfit/job/overseer
+	name = OUTFIT_JOB_NAME("Factory Overseer")
+	uniform = /obj/item/clothing/under/fo_uniform
+	shoes = /obj/item/clothing/shoes/laceup
+	gloves = /obj/item/clothing/gloves/tactical
 
 /decl/hierarchy/outfit/job/cp
 	hierarchy_type = /decl/hierarchy/outfit/job/cp
@@ -64,6 +71,6 @@
 	name = OUTFIT_JOB_NAME("Earth Administrator")
 
 	back = /obj/item/storage/backpack/satchel/sec
-	uniform = /obj/item/clothing/under/gentlesuit
+	uniform = /obj/item/clothing/under/ca_uniform
 	shoes = /obj/item/clothing/shoes/laceup
 	l_ear = /obj/item/device/radio/headset/headset_sec/civil_protection

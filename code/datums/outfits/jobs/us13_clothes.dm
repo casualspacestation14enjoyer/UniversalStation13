@@ -90,3 +90,21 @@
 	name = "overwatch elite armored vest"
 	desc = "White and nice."
 	icon_state = "owE"
+
+/obj/item/clothing/under/ca_uniform
+	name = "city administrator uniform"
+	desc = "Brown and snazzy, looks like the Combine issue the same thing for all administrators..."
+	icon_state = "rdalt"
+	worn_state = "cauniform"
+
+/obj/item/clothing/under/fo_uniform
+	name = "factory overseer's uniform"
+	desc = "The same as the uniform of the worker, but it has a red armband. Don't go mimicking historical figures now."
+	icon_state = "detective2"
+	worn_state = "founiform"
+
+/obj/item/clothing/under/fw_uniform
+	name = "factory worker's uniform"
+	desc = "Not stained with oil or blood... yet."
+	icon_state = "work"
+	worn_state = "founiform"

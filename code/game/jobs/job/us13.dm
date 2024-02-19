@@ -26,7 +26,7 @@
 	spawn_positions = 1
 	supervisors = "the City Administrator"
 	access = list(access_manufacturing, access_bridge)
-	//outfit_type = /decl/hierarchy/outfit/job/overseer
+	outfit_type = /decl/hierarchy/outfit/job/overseer
 	available_by_default = TRUE
 
 /datum/job/citizen/worker // child worker

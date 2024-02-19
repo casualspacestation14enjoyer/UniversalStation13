@@ -13,8 +13,6 @@
 	name = OUTFIT_JOB_NAME("Factory Worker")
 
 	uniform = /obj/item/clothing/under/fw_uniform
-	suit = /obj/item/clothing/suit/storage/hazardvest
-	head = /obj/item/clothing/head/hardhat
 
 	id_types = list(/obj/item/card/id/civilian/worker)
 

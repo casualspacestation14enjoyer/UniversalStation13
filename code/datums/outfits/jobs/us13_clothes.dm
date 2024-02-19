@@ -107,4 +107,4 @@
 	name = "factory worker's uniform"
 	desc = "Not stained with oil or blood... yet."
 	icon_state = "work"
-	worn_state = "founiform"
+	worn_state = "fwuniform"

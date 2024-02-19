@@ -164,6 +164,17 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"cC" = (
+/obj/structure/table/rack,
+/obj/item/gun/projectile/automatic/assault_rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "cF" = (
 /obj/machinery/light/dystopian{
 	dir = 8
@@ -199,13 +210,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
-"dm" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/medical_cloning,
-/obj/random/medical,
-/obj/random/medical,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "dn" = (
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
@@ -232,42 +236,20 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
-"dA" = (
-/obj/machinery/door/airlock/virology,
-/turf/simulated/floor/reinforced,
-/area/cmb/administration_access)
 "dB" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"dD" = (
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "dJ" = (
 /obj/machinery/light/dystopian{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/red,
 /area/cmb/administration_high_sec)
-"dL" = (
-/obj/structure/table/reinforced,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "dQ" = (
 /obj/random/trash,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-"dU" = (
-/obj/effect/paint_stripe/blue,
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "dV" = (
 /obj/machinery/door/window,
 /turf/simulated/floor/tiled/cmb_tiled/c,
@@ -278,21 +260,18 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"dZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/random/trash,
-/turf/simulated/floor/tiled/sidewalk,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "eb" = (
 /obj/machinery/door/unpowered/simple/wood{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/cmb/misc_buildings)
+"ec" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "ed" = (
 /obj/machinery/factorium/plasticinizer,
 /turf/simulated/floor/tiled/techfloor,
@@ -321,19 +300,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"el" = (
-/obj/machinery/light/dystopian{
-	dir = 4
-	},
-/obj/machinery/vending/hotfood,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
-"eq" = (
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "eA" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
@@ -353,14 +319,6 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-<<<<<<< Updated upstream
-"eM" = (
-/obj/structure/street_light,
-/obj/random/trash,
-/turf/simulated/floor/tiled/sidewalk,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "eN" = (
 /obj/structure/bed/chair/wood{
 	dir = 1
@@ -372,13 +330,6 @@
 "eR" = (
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"eW" = (
-/obj/structure/rubble/house,
-/turf/simulated/wall,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "fb" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/dirt,
@@ -432,17 +383,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-"gc" = (
-/obj/structure/table/reinforced,
-/turf/simulated/floor/reinforced,
-/area/medical)
-<<<<<<< Updated upstream
-"gl" = (
-/obj/machinery/sleeper,
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "gm" = (
 /obj/structure/bed/chair/bench{
 	dir = 4
@@ -464,15 +404,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_second_floor)
-<<<<<<< Updated upstream
-"gB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/remains,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "gG" = (
 /obj/machinery/light/dystopian{
 	dir = 4
@@ -486,13 +417,6 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/trainstation)
-<<<<<<< Updated upstream
-"gK" = (
-/obj/machinery/light/dystopian,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
 "gO" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -504,6 +428,19 @@
 "gQ" = (
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/misc_buildings)
+"gY" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/pen,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
+"gZ" = (
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/suit/armor/vest/old/security/cpO,
+/obj/item/storage/belt/holster/security/fullusp,
+/obj/item/device/radio/headset/headset_sec,
+/obj/item/clothing/mask/cpO,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "ha" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/dirt,
@@ -531,13 +468,6 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
-<<<<<<< Updated upstream
-"hv" = (
-/obj/structure/closet/walllocker/emerglocker/south,
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "hw" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -553,10 +483,6 @@
 /obj/item/pen,
 /turf/simulated/floor/carpet/red,
 /area/cmb/administration_high_sec)
-"hz" = (
-/obj/machinery/vending/medical,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "hA" = (
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
@@ -579,14 +505,6 @@
 "hQ" = (
 /turf/simulated/wall/r_wall,
 /area/cmb/administration_high_sec)
-"hR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "hV" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "City Administrator Office"
@@ -613,10 +531,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-"ij" = (
-/obj/effect/paint,
-/turf/simulated/wall/r_wall,
-/area/medical)
 "il" = (
 /obj/turbolift_map_holder{
 	dir = 4;
@@ -631,14 +545,6 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_access)
-<<<<<<< Updated upstream
-"it" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/filingcabinet/wallcabinet,
-/turf/simulated/floor/tiled/cmb_tiled/b,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "iF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -658,17 +564,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"iQ" = (
-/obj/structure/filingcabinet/wallcabinet,
-/turf/simulated/wall,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "iV" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/holofloor/concrete,
 /area/outside)
+"iX" = (
+/obj/structure/table/woodentable_reinforced,
+/obj/item/pen,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "jd" = (
 /obj/item/clothing/shoes/dress,
 /obj/random/trash,
@@ -740,15 +644,6 @@
 /obj/random/trash,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"jR" = (
-/obj/machinery/light/dystopian{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/space)
-=======
->>>>>>> Stashed changes
 "jV" = (
 /obj/structure/train_track,
 /turf/simulated/floor,
@@ -760,20 +655,6 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-"jZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/dystopian,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
-"ki" = (
-/obj/effect/paint_stripe/blue,
-/obj/machinery/door/airlock/virology,
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "kn" = (
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -806,15 +687,6 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-<<<<<<< Updated upstream
-"ky" = (
-/obj/machinery/door/unpowered/simple/iron{
-	dir = 8
-	},
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "kM" = (
 /obj/machinery/light/small/dystopian{
 	dir = 4
@@ -846,6 +718,10 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"lk" = (
+/obj/effect/decal/cleanable/vomit,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "lo" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor,
@@ -865,6 +741,17 @@
 "lz" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
+"lA" = (
+/obj/machinery/light/dystopian{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/suit/armor/vest/old/security/cpO,
+/obj/item/storage/belt/holster/security/fullusp,
+/obj/item/device/radio/headset/headset_sec,
+/obj/item/clothing/mask/cpO,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "lB" = (
 /obj/machinery/light/dystopian{
 	dir = 1
@@ -878,17 +765,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"lF" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-"lL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "lM" = (
 /obj/structure/street_light,
 /obj/effect/decal/cleanable/dirt,
@@ -896,13 +772,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-<<<<<<< Updated upstream
-"lO" = (
-/obj/structure/block_crate,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-=======
->>>>>>> Stashed changes
 "lP" = (
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_second_floor)
@@ -910,6 +779,11 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"lU" = (
+/obj/machinery/light/dystopian,
+/obj/structure/bed,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "lV" = (
 /obj/structure/morgue{
 	dir = 2
@@ -932,10 +806,6 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-"mc" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/wall,
-/area/outside)
 "me" = (
 /obj/item/modular_computer/telescreen{
 	pixel_x = -32;
@@ -954,10 +824,23 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
+"mj" = (
+/obj/machinery/light/dystopian{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "mn" = (
 /obj/machinery/couponreclaim,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
+"mp" = (
+/obj/machinery/light/dystopian{
+	dir = 1
+	},
+/obj/structure/bed,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "mr" = (
 /obj/structure/bed/chair/bench,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
@@ -1024,12 +907,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-"nw" = (
-/obj/structure/table/standard,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "nx" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/item/ammo_casing/pistol/used,
@@ -1046,10 +923,6 @@
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"nM" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/techfloor,
-/area/cmb/factory)
 "nR" = (
 /obj/effect/wingrille_spawn,
 /obj/structure/curtain/open,
@@ -1066,17 +939,6 @@
 /obj/structure/bed,
 /turf/simulated/floor/reinforced,
 /area/cmb/metrocop_habitation)
-<<<<<<< Updated upstream
-"nW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "og" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1138,17 +1000,11 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"oU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
+"oW" = (
+/obj/machinery/photocopier/faxmachine,
+/obj/structure/table/woodentable_reinforced,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "oZ" = (
 /obj/machinery/door/unpowered/simple/wood{
 	dir = 1;
@@ -1156,6 +1012,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/cmb/medbay)
+"pc" = (
+/obj/machinery/door/airlock/security,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "pi" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -1166,14 +1026,6 @@
 "pq" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/medbay)
-<<<<<<< Updated upstream
-"ps" = (
-/obj/machinery/door/unpowered/simple/wood,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "pH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rustcar,
@@ -1187,12 +1039,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"pV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "qd" = (
 /obj/structure/table/steel,
 /obj/structure/window/reinforced{
@@ -1226,10 +1072,6 @@
 /obj/machinery/button/blast_door{
 	id_tag = "FactoryReq"
 	},
-<<<<<<< Updated upstream
-/obj/item/clothing/head/collectable/kitty,
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
 "qw" = (
@@ -1241,15 +1083,19 @@
 /obj/structure/rustcar,
 /turf/simulated/floor/tiled/road,
 /area/outside)
+"qF" = (
+/obj/structure/table/rack,
+/obj/item/gun/projectile/pistol/usp,
+/obj/item/gun/projectile/pistol/usp,
+/obj/item/ammo_magazine/pistol/double/usp,
+/obj/item/ammo_magazine/pistol/double/usp,
+/obj/item/ammo_magazine/pistol/double/usp,
+/obj/item/ammo_magazine/pistol/double/usp,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "qL" = (
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
-"qM" = (
-/obj/machinery/light/dystopian{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/medical)
 "qN" = (
 /obj/structure/bed,
 /obj/effect/landmark/start{
@@ -1259,12 +1105,9 @@
 /area/cmb/factory)
 "qO" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-<<<<<<< Updated upstream
-=======
 /obj/machinery/light/dystopian{
 	dir = 4
 	},
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
 "qV" = (
@@ -1340,6 +1183,9 @@
 "rG" = (
 /turf/simulated/wall,
 /area/cmb/medbay)
+"rS" = (
+/turf/simulated/wall,
+/area/security)
 "rT" = (
 /obj/machinery/door/unpowered/simple/wood{
 	dir = 8
@@ -1378,20 +1224,6 @@
 /obj/structure/trashbin,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"sy" = (
-/obj/machinery/door/unpowered/simple/wood{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
-<<<<<<< Updated upstream
-"sA" = (
-/obj/machinery/constructable_frame/computerframe/deconstruct,
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "sF" = (
 /obj/machinery/computer/modular/preset/cardslot/command_sec{
 	dir = 8
@@ -1417,23 +1249,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-"sW" = (
-<<<<<<< Updated upstream
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-"tc" = (
-/obj/machinery/light/dystopian{
-	dir = 1
-	},
-/obj/machinery/computer,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
-/obj/structure/table/standard,
-/turf/simulated/wall,
-/area/cmb/factory)
->>>>>>> Stashed changes
 "tf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1466,22 +1281,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
-"tF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/woodentable/maple,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
-"tJ" = (
-/obj/structure/table/reinforced,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "tM" = (
 /obj/structure/table/rack,
 /obj/machinery/light/dystopian,
@@ -1535,18 +1334,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-"uK" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/asteroid,
-/area/space)
 "uL" = (
 /turf/simulated/open,
 /area/cmb/trainstation)
-"uO" = (
-/obj/structure/bed/roller,
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "uP" = (
 /obj/item/storage/briefcase,
 /turf/simulated/floor/tiled/sidewalk,
@@ -1573,12 +1363,6 @@
 	},
 /turf/simulated/open,
 /area/outside)
-"vj" = (
-/obj/effect/paint_stripe/blue,
-/obj/effect/paint_stripe/blue,
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "vt" = (
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
@@ -1587,6 +1371,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
+"vv" = (
+/obj/structure/table/steel,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "vy" = (
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
@@ -1618,14 +1407,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cmb/administration_high_sec)
-"wa" = (
-/obj/machinery/light/dystopian,
-<<<<<<< Updated upstream
-/obj/machinery/sleeper,
-=======
->>>>>>> Stashed changes
-/turf/simulated/floor/reinforced,
-/area/medical)
 "wf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1654,16 +1435,6 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-<<<<<<< Updated upstream
-"wt" = (
-/obj/machinery/light/dystopian{
-	dir = 8
-	},
-/obj/structure/block_crate,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-=======
->>>>>>> Stashed changes
 "wu" = (
 /obj/structure/street_light,
 /turf/simulated/floor/exoplanet/grass,
@@ -1686,22 +1457,6 @@
 /obj/random/trash,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"wF" = (
-/obj/structure/table/rack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/ointment,
-/obj/machinery/light/dystopian{
-	dir = 8
-	},
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "wK" = (
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
@@ -1713,15 +1468,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-<<<<<<< Updated upstream
-"wO" = (
-/obj/structure/bed/chair/bench{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-=======
->>>>>>> Stashed changes
 "wQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/light/dystopian{
@@ -1730,25 +1476,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"wR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "wS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-<<<<<<< Updated upstream
-"xb" = (
-/obj/machinery/light/dystopian{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/cmb_tiled/trainstation,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
 "xn" = (
 /obj/machinery/light/dystopian{
 	dir = 8
@@ -1756,18 +1488,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
-<<<<<<< Updated upstream
-"xq" = (
-/obj/structure/rubble/house,
-/obj/structure/rubble/house,
-/turf/simulated/wall,
-/area/outside)
-"xr" = (
-/obj/structure/table/rack/dark,
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "xD" = (
 /turf/simulated/floor/plating,
 /area/turbolift/administration_elevator_2)
@@ -1843,10 +1563,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"yy" = (
-/mob,
-/turf/simulated/floor/asteroid,
-/area/space)
 "yD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1931,14 +1647,10 @@
 	},
 /turf/simulated/floor/tiled/road,
 /area/outside)
-<<<<<<< Updated upstream
-"zS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rubble/house,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
+"zQ" = (
+/obj/structure/bed/chair,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "zT" = (
 /obj/structure/trashbin,
 /obj/machinery/light/dystopian{
@@ -1974,11 +1686,6 @@
 "Ao" = (
 /turf/simulated/wall/r_wall,
 /area/cmb/metrocop_habitation)
-"Ar" = (
-/obj/structure/table/standard,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "Az" = (
 /obj/machinery/computer/arcade,
 /obj/effect/decal/cleanable/dirt,
@@ -2028,17 +1735,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"Be" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/wall,
-/area/cmb/medbay)
-"Bk" = (
-/obj/machinery/light/dystopian{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced,
-/area/medical)
+"Bj" = (
+/obj/machinery/papershredder,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Bl" = (
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/reinforced,
@@ -2073,20 +1773,6 @@
 "Bu" = (
 /turf/simulated/floor/asteroid,
 /area/space)
-"BA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/up,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
-"BB" = (
-/obj/effect/paint_stripe/blue,
-/obj/effect/paint_stripe/blue,
-/mob/living/bot/medbot,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "BE" = (
 /obj/structure/traffic_pole{
 	dir = 4
@@ -2107,16 +1793,9 @@
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
 "BM" = (
-/turf/simulated/floor/reinforced,
-/area/medical)
-"BN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
+/obj/machinery/door/airlock/multi_tile/glass/security,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "BQ" = (
 /obj/structure/table/woodentable,
 /obj/item/stamp/captain/ca,
@@ -2127,20 +1806,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/old_cargo,
 /area/cmb/misc_buildings)
-"BU" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/wall,
-/area/cmb/medbay)
-<<<<<<< Updated upstream
-"BY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rubble/house,
-/obj/structure/rubble/house,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "Cf" = (
 /obj/machinery/light/small/dystopian{
 	dir = 8
@@ -2195,15 +1860,11 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"CN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rubble/house,
-/obj/structure/rubble/house,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
+"CM" = (
+/obj/item/mop,
+/obj/structure/mopbucket,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "CQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
@@ -2242,26 +1903,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/wall,
 /area/cmb/misc_buildings)
+"Dj" = (
+/obj/structure/sign/goldenplaque/security,
+/turf/simulated/wall,
+/area/security)
+"Ds" = (
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Dx" = (
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_second_floor)
-"DB" = (
-/obj/structure/table/rack,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/ointment,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
-<<<<<<< Updated upstream
-"DH" = (
-/obj/random/trash,
-/turf/simulated/floor/tiled/road,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "DJ" = (
 /obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/cmb_tiled/b,
@@ -2330,15 +1982,6 @@
 /obj/structure/street_light,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-"EE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "EJ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -2369,14 +2012,6 @@
 	},
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-"Fz" = (
-/obj/machinery/door/unpowered/simple/wood{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "FA" = (
 /obj/structure/rustcar,
 /turf/simulated/floor/exoplanet/grass,
@@ -2397,12 +2032,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
-<<<<<<< Updated upstream
-"FU" = (
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
+"Gb" = (
+/obj/item/trash/tastybread,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Gg" = (
 /obj/item/trash/cigbutt,
 /turf/simulated/floor/tiled/sidewalk,
@@ -2430,10 +2063,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-<<<<<<< Updated upstream
-/obj/structure/filingcabinet/wallcabinet,
-=======
->>>>>>> Stashed changes
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
 "Gs" = (
@@ -2456,11 +2085,6 @@
 "GB" = (
 /turf/unsimulated/wall,
 /area/cmb/trainstation)
-"GD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "GF" = (
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -2469,10 +2093,10 @@
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/tiled/old_cargo,
 /area/cmb/misc_buildings)
-"GN" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
+"GO" = (
+/obj/random/trash,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "GS" = (
 /obj/structure/bed/chair/office,
 /turf/simulated/floor/tiled/techmaint,
@@ -2531,13 +2155,11 @@
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"HG" = (
-/obj/structure/rubble/house,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
+"HF" = (
+/obj/item/trash/candy,
+/obj/item/boombox,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "HH" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2550,20 +2172,6 @@
 /obj/structure/phone_booth,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/trainstation)
-"HM" = (
-/obj/structure/closet/secure_closet/medical_wall,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "HO" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/road/walk{
@@ -2590,17 +2198,11 @@
 "HT" = (
 /turf/simulated/open,
 /area/turbolift/administration_elevator_2)
-"Ig" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/random/medical/lite,
-/obj/machinery/light/small/dystopian{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
+"HU" = (
+/obj/structure/bed,
+/obj/item/bedsheet,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "Ii" = (
 /obj/structure/train_track,
 /obj/structure/cmb_forcefield{
@@ -2608,6 +2210,10 @@
 	},
 /turf/simulated/floor,
 /area/cmb/trainstation)
+"Ij" = (
+/obj/machinery/door/airlock/security,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Im" = (
 /turf/simulated/floor/tiled/road/walk{
 	dir = 4
@@ -2645,6 +2251,10 @@
 /obj/machinery/stove,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"IK" = (
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "IN" = (
 /obj/machinery/light/dystopian{
 	dir = 8
@@ -2665,11 +2275,6 @@
 /obj/machinery/cooker/grill,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"Ja" = (
-/obj/effect/paint_stripe/gunmetal,
-/obj/effect/paint,
-/turf/simulated/wall/r_wall,
-/area/cmb/administration_access)
 "Jb" = (
 /obj/item/ammo_casing/pistol/used,
 /obj/effect/decal/cleanable/dirt,
@@ -2694,15 +2299,18 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/cmb/misc_buildings)
+"Jo" = (
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "Jt" = (
 /obj/structure/trashbin,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
-"Jv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/directions/med,
-/turf/simulated/wall,
-/area/outside)
+"Jz" = (
+/obj/item/bananapeel,
+/obj/effect/decal/cleanable/vomit,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "JD" = (
 /obj/structure/bed/chair/office{
 	dir = 1
@@ -2741,18 +2349,23 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"Ka" = (
+/obj/machinery/light/dystopian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Ke" = (
 /obj/structure/table/woodentable,
 /obj/machinery/chemical_dispenser/bar_alc/full,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"Kk" = (
-/obj/structure/table/reinforced,
-/obj/random/medical,
-/obj/random/medical,
-/turf/simulated/floor/reinforced,
-/area/medical)
+"Ku" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/paper_bin,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Kz" = (
 /obj/machinery/light/small/yellowish{
 	dir = 4
@@ -2787,32 +2400,10 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"Le" = (
-/obj/machinery/light/dystopian{
-	dir = 4
-	},
-/obj/structure/bed/chair/bench{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-"Lk" = (
-/obj/machinery/door/window/brigdoor/westright,
-/obj/machinery/door/window/brigdoor/eastright,
-/obj/structure/table/steel_reinforced,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
 "Lm" = (
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"Lo" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/road,
-/area/outside)
 "Ly" = (
 /obj/effect/landmark/start{
 	name = "Factory Overseer"
@@ -2839,13 +2430,10 @@
 /obj/random/trash,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"LM" = (
-/obj/structure/table/rack/dark,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
+"LL" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/outside)
 "LN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dystopian{
@@ -2853,18 +2441,6 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"LP" = (
-/obj/machinery/light/dystopian{
-	dir = 8
-	},
-/obj/structure/bed/chair/bench{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-=======
->>>>>>> Stashed changes
 "LQ" = (
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/reinforced,
@@ -2875,6 +2451,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"LW" = (
+/obj/item/trash/liquidfood,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Me" = (
 /obj/structure/table/woodentable,
 /obj/effect/decal/cleanable/dirt,
@@ -2887,13 +2467,6 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
-<<<<<<< Updated upstream
-"Mk" = (
-/obj/machinery/door/unpowered/simple/iron,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
 "Mm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -2919,19 +2492,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/road,
 /area/outside)
-"Mw" = (
-/obj/structure/closet/secure_closet/medical_wall,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "Mz" = (
 /obj/item/ammo_casing/pistol/used,
 /obj/item/ammo_casing/pistol/used,
@@ -2947,25 +2507,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"MM" = (
-/obj/structure/filingcabinet/wallcabinet,
-/turf/simulated/floor/asteroid,
-/area/space)
-"MN" = (
-/obj/effect/paint_stripe/blue,
-/obj/effect/paint,
-/obj/machinery/door/unpowered/simple/iron,
-=======
-"MN" = (
-/obj/effect/paint_stripe/blue,
-/obj/machinery/door/unpowered/simple/iron{
-	dir = 8
-	},
-/obj/effect/paint,
->>>>>>> Stashed changes
-/turf/simulated/wall/r_wall,
-/area/medical)
+"ML" = (
+/obj/machinery/jukebox/old,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "MP" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -2999,28 +2544,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_access)
-"Nl" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
-"Nm" = (
-/obj/effect/paint,
-/obj/machinery/vending/wallmed1,
-/turf/simulated/wall/r_wall,
-/area/medical)
-<<<<<<< Updated upstream
-"Ns" = (
-/obj/random/trash,
-/turf/simulated/floor/tiled/road/walk{
-	dir = 4
-	},
-/area/outside)
-=======
->>>>>>> Stashed changes
 "ND" = (
 /obj/structure/table/steel_reinforced,
 /obj/structure/window/reinforced{
@@ -3040,12 +2563,6 @@
 /obj/structure/grille,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-"NN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "NR" = (
 /obj/item/material/shard,
 /obj/effect/decal/cleanable/dirt,
@@ -3060,6 +2577,13 @@
 "NU" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/cmb/medbay)
+"NW" = (
+/obj/machinery/light/dystopian,
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Oc" = (
 /obj/structure/flora/pottedplant/flower,
 /obj/effect/decal/cleanable/dirt,
@@ -3124,6 +2648,11 @@
 /obj/structure/street_light,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"OQ" = (
+/obj/structure/table/woodentable_reinforced,
+/obj/item/paper_bundle,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "OT" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning{
@@ -3149,30 +2678,10 @@
 	},
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"Pe" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rubble/house,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "Pf" = (
 /obj/structure/phone_booth,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
-"Pg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/walllocker/emerglocker,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "Ph" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3186,11 +2695,6 @@
 /obj/structure/bed,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-"Pk" = (
-/obj/random/medical,
-/obj/structure/table/standard,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "Pl" = (
 /obj/machinery/light/dystopian{
 	dir = 4
@@ -3220,6 +2724,10 @@
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
 /area/cmb/administration_second_floor)
+"PL" = (
+/obj/structure/largecrate,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "PP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
@@ -3256,10 +2764,18 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_access)
+"Qj" = (
+/obj/structure/bed,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Qk" = (
 /obj/item/ammo_casing/pistol/used,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"Qr" = (
+/obj/machinery/papershredder,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "Qu" = (
 /obj/structure/bed/chair/wood{
 	dir = 1
@@ -3274,14 +2790,10 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cmb/administration_high_sec)
-<<<<<<< Updated upstream
-"QC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/exoplanet/concrete,
-/area/outside)
-=======
->>>>>>> Stashed changes
+"QA" = (
+/obj/machinery/vending/security,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "QE" = (
 /obj/structure/flora/pottedplant/dead,
 /obj/effect/decal/cleanable/dirt,
@@ -3305,12 +2817,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
-"QV" = (
-/obj/machinery/light/dystopian{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/medical)
 "Rg" = (
 /obj/structure/bed/chair/bench,
 /turf/simulated/floor/tiled/sidewalk,
@@ -3339,22 +2845,19 @@
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/outside)
-"Rw" = (
+"Rx" = (
 /obj/structure/table/rack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/splint,
-/obj/item/stack/medical/ointment,
-/obj/machinery/light/dystopian{
-	dir = 4
-	},
-/obj/effect/paint_stripe/blue,
-/turf/simulated/floor/reinforced,
-/area/medical)
+/obj/item/gun/projectile/automatic/assault_rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/obj/item/ammo_magazine/rifle/mp7,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "RD" = (
 /obj/random/cash,
 /obj/effect/decal/cleanable/dirt,
@@ -3422,12 +2925,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"Sd" = (
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
 "Sf" = (
 /obj/structure/table/woodentable,
 /obj/effect/decal/cleanable/dirt,
@@ -3482,12 +2979,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
-"SB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/woodentable,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "SG" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/clean,
@@ -3521,16 +3012,16 @@
 	},
 /turf/simulated/floor/tiled/road,
 /area/outside)
-"SY" = (
-/obj/structure/table/standard,
-/obj/random/medical,
-/obj/random/medical/lite,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "Th" = (
 /obj/structure/filingcabinet,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
+"Tk" = (
+/obj/machinery/light/dystopian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Tm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3579,18 +3070,6 @@
 /obj/item/trash/chips,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"TJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rubble/house,
-/turf/simulated/floor/tiled/sidewalk,
-/area/outside)
-"TN" = (
-/obj/structure/table/steel,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/cmb/factory)
-=======
->>>>>>> Stashed changes
 "TQ" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/item/trash/cigbutt,
@@ -3625,12 +3104,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"Ug" = (
+/obj/structure/largecrate,
+/obj/item/storage/briefcase/crimekit,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Uh" = (
 /obj/structure/table/woodentable,
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
+"Ui" = (
+/obj/structure/table/woodentable_reinforced,
+/obj/item/modular_computer/laptop,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/security)
 "Up" = (
 /obj/random/trash,
 /turf/simulated/floor/tiled/old_cargo,
@@ -3641,15 +3130,6 @@
 "Uw" = (
 /turf/simulated/floor/exoplanet/grass,
 /area/cmb/misc_buildings)
-"UA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/woodentable,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "UG" = (
 /obj/effect/landmark/start{
 	name = "Citizen"
@@ -3724,12 +3204,6 @@
 "VB" = (
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"VC" = (
-/obj/effect/paint_stripe/gunmetal,
-/obj/structure/sign/directions/med,
-/obj/effect/paint,
-/turf/simulated/wall/r_wall,
-/area/cmb/administration_access)
 "VG" = (
 /obj/machinery/light/dystopian{
 	dir = 1
@@ -3755,14 +3229,13 @@
 "VQ" = (
 /turf/simulated/wall,
 /area/cmb/factory)
-"VS" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/medical,
-/turf/simulated/floor/reinforced,
-/area/medical)
 "VT" = (
 /turf/simulated/floor/plating,
 /area/turbolift/administration_elevator_1)
+"VY" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "Wh" = (
 /obj/item/ammo_casing/pistol/used,
 /obj/item/ammo_casing/rifle/used,
@@ -3782,13 +3255,6 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
-<<<<<<< Updated upstream
-"Wr" = (
-/obj/item/clothing/head/collectable/kitty,
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "Wu" = (
 /obj/structure/bed/chair/wood{
 	dir = 8
@@ -3842,12 +3308,6 @@
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/tiled/old_cargo,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"WO" = (
-/turf/simulated/floor/tiled/techmaint,
-/area/space)
-=======
->>>>>>> Stashed changes
 "WR" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/effect/decal/cleanable/dirt,
@@ -3860,15 +3320,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
-<<<<<<< Updated upstream
-"Xc" = (
-/obj/machinery/door/unpowered/simple/iron{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
 "Xd" = (
 /obj/machinery/door/window{
 	dir = 4
@@ -3879,14 +3330,6 @@
 /obj/machinery/ntnet_relay,
 /turf/simulated/floor/tiled/techfloor,
 /area/outside)
-<<<<<<< Updated upstream
-"Xn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/rubble/house,
-/turf/simulated/wall,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "Xp" = (
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
@@ -3965,13 +3408,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/medbay)
-<<<<<<< Updated upstream
-"Yx" = (
-/obj/structure/rubble/house,
-/turf/simulated/floor/asteroid,
-/area/space)
-=======
->>>>>>> Stashed changes
 "YD" = (
 /obj/structure/table/steel,
 /obj/item/paper_bin,
@@ -3987,17 +3423,6 @@
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
-"YP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/walllocker/emerglocker,
-/obj/random/medical,
-/obj/random/medical,
-/obj/random/medical/lite,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled/steel_grid,
-/area/cmb/medbay)
 "YQ" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/decal/cleanable/dirt,
@@ -4021,15 +3446,6 @@
 "Zb" = (
 /turf/simulated/floor/asteroid,
 /area/cmb/trainstation)
-<<<<<<< Updated upstream
-"Zf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/random/trash,
-/turf/simulated/floor/tiled/cmb_tiled/c,
-/area/outside)
-=======
->>>>>>> Stashed changes
 "Zl" = (
 /obj/effect/paint_stripe/white,
 /turf/simulated/wall,
@@ -4042,13 +3458,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
-<<<<<<< Updated upstream
-"Zy" = (
-/obj/structure/table/steel_reinforced,
-/turf/simulated/floor/tiled/techmaint,
-/area/cmb/trainstation)
-=======
->>>>>>> Stashed changes
+"ZB" = (
+/obj/item/trash/cheesie,
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/security)
 "ZC" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/clean,
@@ -9595,12 +9008,12 @@ za
 So
 So
 cm
-ij
-ij
-ij
-ij
-ij
-ij
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -9852,15 +9265,15 @@ So
 So
 So
 cm
-HM
-gc
-hz
-uO
-Kk
-ij
-ij
-ij
-ij
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -10109,15 +9522,15 @@ So
 So
 in
 cm
-Bk
-BM
-BM
-dD
-wa
-ij
-QV
-dm
-ij
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -10365,16 +9778,16 @@ So
 So
 So
 So
-Ja
-ij
-ij
-BM
-dU
-Ar
-ij
-BM
-VS
-ij
+cm
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -10622,16 +10035,16 @@ So
 So
 So
 So
-VC
-wF
-ij
-Bk
-dU
-Pk
-ij
-BM
-DB
-ij
+cm
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -10878,17 +10291,17 @@ So
 So
 So
 So
-So
-dA
-dD
-ki
-BB
-vj
-dD
-MN
-dD
-dD
-Nm
+in
+cm
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -11136,16 +10549,16 @@ So
 So
 So
 So
-VC
-Rw
-ij
-Bk
-dU
-nw
-ij
-BM
-DB
-ij
+cm
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -11393,16 +10806,16 @@ So
 So
 So
 So
-Ja
-ij
-ij
-BM
-dU
-SY
-ij
-BM
-VS
-ij
+cm
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -11651,15 +11064,15 @@ So
 So
 in
 cm
-Bk
-BM
-BM
-dD
-wa
-ij
-qM
-dL
-ij
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -11719,11 +11132,7 @@ fd
 FN
 dw
 dw
-<<<<<<< Updated upstream
-Zf
-=======
 FN
->>>>>>> Stashed changes
 fd
 FN
 dw
@@ -11912,15 +11321,15 @@ So
 So
 So
 cm
-Mw
-gc
-hz
-uO
-tJ
-ij
-ij
-ij
-ij
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -12140,7 +11549,7 @@ Bu
 Bu
 Bu
 Bu
-uK
+Bu
 Bu
 Bu
 Bu
@@ -12169,12 +11578,12 @@ Pl
 So
 So
 cm
-ij
-ij
-ij
-ij
-ij
-ij
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -12485,11 +11894,7 @@ Zp
 yD
 yD
 Zp
-<<<<<<< Updated upstream
-cv
-=======
 YW
->>>>>>> Stashed changes
 Om
 yD
 Zp
@@ -12737,21 +12142,12 @@ dq
 dq
 Jj
 Rg
-<<<<<<< Updated upstream
-AO
-hA
-YW
-YW
-cv
-cv
-=======
 hA
 hA
 YW
 YW
 YW
 YW
->>>>>>> Stashed changes
 hA
 YW
 YW
@@ -12929,7 +12325,7 @@ Bu
 Bu
 Bu
 Bu
-uK
+Bu
 Bu
 Bu
 Bu
@@ -13025,11 +12421,7 @@ hA
 OO
 hA
 hA
-<<<<<<< Updated upstream
-cv
-=======
 YW
->>>>>>> Stashed changes
 hA
 YW
 hA
@@ -13715,11 +13107,7 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-gl
-=======
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 cm
@@ -13973,7 +13361,7 @@ Bu
 Bu
 Bu
 Bu
-uK
+Bu
 Bu
 Bu
 Bu
@@ -14322,11 +13710,7 @@ Us
 hA
 Zp
 hA
-<<<<<<< Updated upstream
-cv
-=======
 YW
->>>>>>> Stashed changes
 rG
 NU
 NU
@@ -14556,11 +13940,7 @@ dq
 dq
 dq
 Jj
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 yD
 YW
 Us
@@ -15087,21 +14467,12 @@ YW
 YW
 hA
 YW
-<<<<<<< Updated upstream
-dZ
-Zp
-YW
-cv
-dZ
-cv
-=======
 Zp
 Zp
 YW
 YW
 Zp
 YW
->>>>>>> Stashed changes
 YW
 YW
 Zp
@@ -15290,19 +14661,6 @@ Oz
 Oz
 hA
 hA
-<<<<<<< Updated upstream
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-=======
 Jj
 Bu
 Bu
@@ -15314,7 +14672,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -15561,19 +14918,6 @@ qy
 Oz
 hA
 hA
-<<<<<<< Updated upstream
-VQ
-tz
-wO
-LP
-tz
-tz
-lO
-wt
-tz
-tz
-VQ
-=======
 Jj
 Bu
 Bu
@@ -15585,7 +14929,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -15829,22 +15172,9 @@ OO
 Oz
 Oz
 Oz
-Lo
+Oz
 OO
 hA
-<<<<<<< Updated upstream
-VQ
-zB
-lz
-lz
-lz
-lz
-lz
-lz
-Jg
-an
-VQ
-=======
 Jj
 Bu
 Bu
@@ -15856,7 +15186,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -16104,18 +15433,6 @@ Oz
 hA
 hA
 VQ
-<<<<<<< Updated upstream
-mn
-lz
-lz
-lz
-lz
-lz
-lz
-lz
-tz
-VQ
-=======
 Bu
 Bu
 Bu
@@ -16126,7 +15443,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -16374,18 +15690,6 @@ Oz
 hA
 hA
 VQ
-<<<<<<< Updated upstream
-TA
-lz
-lz
-lz
-lz
-lz
-lz
-ed
-tz
-VQ
-=======
 Bu
 Bu
 Bu
@@ -16396,7 +15700,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -16644,20 +15947,6 @@ Oz
 hA
 hA
 VQ
-<<<<<<< Updated upstream
-tz
-lz
-lz
-lz
-lz
-lz
-lz
-lz
-tz
-VQ
-=======
-Bu
-uK
 Bu
 Bu
 Bu
@@ -16666,7 +15955,8 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -16708,11 +15998,7 @@ dq
 Jj
 hA
 hA
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 Us
 Us
 Us
@@ -16736,11 +16022,7 @@ Zl
 Zl
 YW
 hA
-<<<<<<< Updated upstream
-cv
-=======
 YW
->>>>>>> Stashed changes
 Rg
 rG
 NU
@@ -16914,32 +16196,14 @@ Bu
 Bu
 Jj
 hA
-<<<<<<< Updated upstream
-AO
-DH
-DH
-=======
 hA
 Oz
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 hA
 hA
 VQ
-<<<<<<< Updated upstream
-zB
-lz
-lz
-lz
-lo
-lo
-lz
-lz
-an
-VQ
-=======
 Bu
 Bu
 Bu
@@ -16950,7 +16214,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -17198,18 +16461,6 @@ Oz
 OO
 hA
 VQ
-<<<<<<< Updated upstream
-tz
-tz
-Le
-tz
-TN
-TN
-dk
-tz
-tz
-VQ
-=======
 Bu
 Bu
 Bu
@@ -17220,7 +16471,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -17445,17 +16695,17 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
 Bu
 Bu
 Jj
@@ -17468,22 +16718,14 @@ Oz
 hA
 hA
 VQ
-<<<<<<< Updated upstream
-lz
-ca
-=======
->>>>>>> Stashed changes
 VQ
 VQ
 VQ
 VQ
 VQ
 VQ
-<<<<<<< Updated upstream
-=======
-sW
 VQ
->>>>>>> Stashed changes
+VQ
 VQ
 VQ
 VQ
@@ -17710,17 +16952,17 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+Qj
+Tk
+Qj
+rS
+HU
+OQ
+IK
+Jo
+oW
+rS
 Bu
 Bu
 Jj
@@ -17730,11 +16972,7 @@ Oz
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 hA
 VQ
 tz
@@ -17971,17 +17209,17 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+Qj
+Ds
+Qj
+rS
+Jo
+Jo
+Jo
+Jo
+Qr
+rS
 Bu
 Bu
 Jj
@@ -18228,17 +17466,17 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+Qj
+Ds
+Qj
+rS
+Jo
+rS
+iX
+Ui
+rS
+rS
 Bu
 Bu
 Jj
@@ -18259,7 +17497,7 @@ rs
 lz
 lz
 lz
-nM
+lz
 lz
 lz
 an
@@ -18301,11 +17539,7 @@ dq
 dq
 Jj
 hm
-<<<<<<< Updated upstream
-cv
-=======
 YW
->>>>>>> Stashed changes
 YW
 bm
 bm
@@ -18489,17 +17723,17 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+mp
+Ds
+lU
+rS
+Jo
+pc
+Jo
+Jo
+Jo
+rS
 Bu
 Bu
 Jj
@@ -18523,7 +17757,7 @@ rE
 lz
 lo
 lo
-lF
+tz
 VQ
 zB
 lz
@@ -18746,17 +17980,17 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+Ds
+Ds
+Ds
+rS
+Jo
+rS
+Jo
+Jo
+Jo
+rS
 Bu
 Bu
 Jj
@@ -18780,7 +18014,7 @@ ed
 lz
 lo
 lo
-lF
+tz
 VQ
 tz
 lz
@@ -19003,19 +18237,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+rS
+Ij
+rS
+rS
+rS
+rS
+Ij
+Ij
+rS
+rS
+rS
+rS
 Jj
 hA
 hA
@@ -19023,11 +18257,7 @@ Oz
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 hA
 VQ
 zB
@@ -19264,19 +18494,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+gZ
+Ds
+rS
+Ds
+Ds
+rS
+mj
+Ds
+rS
+Ds
+Tk
+Ds
 Jj
 hA
 OO
@@ -19284,11 +18514,7 @@ Oz
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-eM
-=======
 OO
->>>>>>> Stashed changes
 MS
 VQ
 tz
@@ -19525,19 +18751,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+lA
+Ds
+Ij
+Ds
+Ds
+rS
+Ds
+Ds
+rS
+Ds
+Ds
+NW
 Jj
 hA
 hA
@@ -19782,19 +19008,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+gZ
+Ds
+rS
+Ds
+Ds
+BM
+Ds
+Ds
+BM
+Ds
+Ds
+ec
 Jj
 hA
 hA
@@ -19858,11 +19084,7 @@ HO
 HO
 Im
 na
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -20043,19 +19265,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+rS
+Dj
+rS
+mj
+Ds
+Ds
+Ds
+Ds
+Ds
+Ds
+Ds
+ec
 Jj
 hA
 hA
@@ -20113,11 +19335,7 @@ hA
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 HO
 HO
@@ -20304,19 +19522,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+gZ
+Ds
+rS
+Ds
+Ds
+rS
+Ds
+Ds
+rS
+Ds
+Ds
+ec
 Jj
 hA
 OO
@@ -20561,19 +19779,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+lA
+Ds
+Ij
+Ds
+Ds
+rS
+Ds
+Ds
+rS
+mj
+Ds
+Ds
 Jj
 hA
 hA
@@ -20818,20 +20036,20 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Jj
+rS
+gZ
+Ds
+rS
+QA
+QA
+rS
+Ds
+Ds
+Ku
+Ds
+Ds
+Ds
+LL
 hA
 hA
 Zn
@@ -21075,20 +20293,20 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Jj
+rS
+rS
+Dj
+rS
+rS
+rS
+rS
+mj
+Ds
+gY
+Ds
+Ds
+Ds
+dw
 hA
 hA
 Zn
@@ -21332,19 +20550,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+HF
+Ds
+Ds
+GO
+Ds
+rS
+Bj
+Ds
+VY
+Ds
+Ds
+Ds
 Jj
 hA
 hA
@@ -21589,19 +20807,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+PL
+PL
+Ds
+Ds
+Ds
+rS
+vv
+Ds
+rS
+mj
+Ds
+ec
 Jj
 hA
 hA
@@ -21846,19 +21064,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+Ug
+Ug
+Ds
+Gb
+lk
+rS
+Ds
+Ds
+rS
+zQ
+Ds
+ec
 Jj
 hA
 hA
@@ -22103,19 +21321,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+qF
+qF
+Ds
+Ds
+Ds
+Ij
+Ds
+Ds
+rS
+zQ
+Ds
+ec
 Jj
 hA
 hA
@@ -22360,19 +21578,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+cC
+Rx
+Ds
+Ds
+Ds
+rS
+Ds
+Ds
+rS
+Ds
+Ds
+NW
 Jj
 hA
 OO
@@ -22617,19 +21835,19 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+cC
+cC
+Jz
+ZB
+LW
+rS
+CM
+Ka
+rS
+ML
+Ka
+Ds
 Jj
 hA
 hA
@@ -22641,13 +21859,8 @@ Oz
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-DH
-DH
-=======
 Oz
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -22671,11 +21884,7 @@ na
 na
 na
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 na
 Oz
@@ -22883,27 +22092,22 @@ Bu
 Bu
 Bu
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
+rS
 Jj
 hA
 hA
-<<<<<<< Updated upstream
-DH
-DH
-=======
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -22914,13 +22118,9 @@ Oz
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
 Oz
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -22957,11 +22157,7 @@ RW
 Oz
 Oz
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 na
@@ -23157,11 +22353,7 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-Wr
-=======
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -23174,11 +22366,7 @@ Jj
 hA
 hA
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -23212,11 +22400,7 @@ na
 na
 Oz
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 na
@@ -23241,11 +22425,7 @@ Im
 Im
 Im
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -23465,11 +22645,7 @@ RW
 RW
 Oz
 Oz
-<<<<<<< Updated upstream
-DH
-=======
 Oz
->>>>>>> Stashed changes
 Oz
 Oz
 Oz
@@ -23502,19 +22678,11 @@ Oz
 na
 na
 Oz
-<<<<<<< Updated upstream
-Ns
-Ns
-Im
-DH
-DH
-=======
 Im
 Im
 Im
 Oz
 Oz
->>>>>>> Stashed changes
 Oz
 na
 Oz
@@ -23724,11 +22892,7 @@ hA
 hA
 OO
 hA
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 hA
 Zp
 YW
@@ -23738,11 +22902,7 @@ hA
 YW
 hA
 hA
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 hA
 OO
 hA
@@ -24271,13 +23431,13 @@ Jj
 Jj
 Jj
 Jj
-mc
-Jv
-Fz
-sy
 Jj
 Jj
-mc
+Jj
+Jj
+Jj
+Jj
+Jj
 Jj
 Jj
 Jj
@@ -24527,14 +23687,14 @@ Bu
 Bu
 Bu
 Bu
-rG
-rG
-BU
-GD
-GN
-rG
-BU
-rG
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -24778,24 +23938,20 @@ Us
 yZ
 wS
 Cq
-<<<<<<< Updated upstream
-iQ
-=======
 Jj
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
 Bu
 Bu
-BU
-Nl
-wR
-GD
-eq
-hR
-SB
-BU
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -25045,14 +24201,14 @@ Bu
 Bu
 Bu
 Bu
-BU
-BA
-GN
-tF
-BN
-oU
-Pg
-BU
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -25302,14 +24458,14 @@ Bu
 Bu
 Bu
 Bu
-rG
-EE
-eq
-GD
-pV
-hR
-jZ
-BU
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -25559,14 +24715,14 @@ Bu
 Bu
 Bu
 Bu
-rG
-lL
-eq
-GD
-GN
-GD
-NN
-BU
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -25789,11 +24945,7 @@ Bu
 Bu
 Jj
 hA
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 Us
 zb
 eR
@@ -25811,11 +24963,7 @@ Us
 Us
 Us
 Us
-<<<<<<< Updated upstream
-it
-=======
 Cq
->>>>>>> Stashed changes
 Cq
 wS
 Jj
@@ -25824,14 +24972,14 @@ Bu
 Bu
 Bu
 Bu
-rG
-YP
-Ig
-UA
-EE
-BN
-pV
-BU
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -26081,14 +25229,14 @@ Bu
 Bu
 Bu
 Bu
-rG
-BU
-BU
-BU
-Be
-BU
-rG
-rG
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -26340,7 +25488,7 @@ Bu
 Bu
 Bu
 Bu
-uK
+Bu
 Bu
 Bu
 Bu
@@ -26568,11 +25716,7 @@ Bu
 Bu
 Jj
 hA
-<<<<<<< Updated upstream
-AO
-=======
 hA
->>>>>>> Stashed changes
 Us
 rg
 Ba
@@ -27852,11 +26996,7 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-Yx
-=======
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Jj
@@ -27896,11 +27036,7 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-ky
-=======
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -28117,21 +27253,12 @@ Bu
 Bu
 Jj
 Jj
-<<<<<<< Updated upstream
-eW
-Jj
-Xn
-mc
-hA
-AO
-=======
 Jj
 Jj
 Jj
 Jj
 hA
 hA
->>>>>>> Stashed changes
 Us
 Us
 Us
@@ -28173,23 +27300,6 @@ Bu
 Bu
 Ou
 qL
-<<<<<<< Updated upstream
-xb
-tD
-qO
-nC
-xb
-xb
-tD
-qO
-nC
-xb
-xb
-tD
-qO
-nC
-xb
-=======
 qL
 tD
 qO
@@ -28205,7 +27315,6 @@ tD
 qO
 nC
 qL
->>>>>>> Stashed changes
 qL
 qL
 qL
@@ -28400,21 +27509,12 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-zS
-HG
-HG
-Pe
-Jj
-HG
-=======
 hA
 hA
 hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -28459,35 +27559,20 @@ Ou
 Ou
 Ou
 Ou
-<<<<<<< Updated upstream
-Lk
-=======
->>>>>>> Stashed changes
-Ou
-Ou
-Ou
-Ou
-<<<<<<< Updated upstream
-Lk
-=======
->>>>>>> Stashed changes
-Ou
-Ou
-Ou
-Ou
-<<<<<<< Updated upstream
-Lk
-Ou
-Ou
-Xc
-=======
 Ou
 Ou
 Ou
 Ou
 Ou
 Ou
->>>>>>> Stashed changes
+Ou
+Ou
+Ou
+Ou
+Ou
+Ou
+Ou
+Ou
 Ou
 Ou
 Ou
@@ -28681,16 +27766,6 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-gB
-sW
-CN
-QC
-Jj
-FU
-YW
-cv
-=======
 hA
 hA
 hA
@@ -28699,7 +27774,6 @@ hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -28736,29 +27810,6 @@ Bu
 Bu
 Bu
 Bu
-uK
-Bu
-Bu
-<<<<<<< Updated upstream
-eB
-Zy
-Sd
-Sd
-LM
-eB
-Zy
-Sd
-Sd
-LM
-eB
-Zy
-Sd
-Sd
-LM
-eB
-WO
-Cu
-=======
 Bu
 Bu
 Bu
@@ -28777,7 +27828,9 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
+Bu
+Bu
+Bu
 Bu
 Bu
 Bu
@@ -28970,17 +28023,6 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-QC
-zS
-Pe
-QC
-Jj
-sW
-TJ
-hA
-AO
-=======
 hA
 hA
 hA
@@ -28990,7 +28032,6 @@ hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -29029,26 +28070,6 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-eB
-tc
-Sd
-Sd
-gK
-eB
-tc
-Sd
-Sd
-gK
-eB
-tc
-Sd
-Sd
-gK
-eB
-WO
-Cu
-=======
 Bu
 Bu
 Bu
@@ -29067,7 +28088,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -29260,17 +28280,6 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-QC
-Pe
-zS
-sW
-ps
-sW
-hA
-hA
-AO
-=======
 hA
 hA
 hA
@@ -29280,7 +28289,6 @@ hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -29319,26 +28327,6 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-eB
-Sd
-Sd
-Sd
-Sd
-Mk
-Sd
-Sd
-Sd
-Sd
-Mk
-Sd
-Sd
-Sd
-Sd
-eB
-WO
-Cu
-=======
 Bu
 Bu
 Bu
@@ -29357,7 +28345,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -29550,16 +28537,6 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-sW
-nW
-Pe
-sW
-mc
-sW
-hA
-Ac
-=======
 hA
 hA
 hA
@@ -29568,7 +28545,6 @@ hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -29608,26 +28584,6 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-eB
-Sd
-Sd
-Sd
-Sd
-eB
-Sd
-Sd
-Sd
-Sd
-eB
-Sd
-Sd
-Sd
-Sd
-Mk
-jR
-Cu
-=======
 Bu
 Bu
 Bu
@@ -29646,7 +28602,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -29839,15 +28794,6 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-sW
-QC
-zS
-CN
-mc
-zS
-Ac
-=======
 hA
 hA
 hA
@@ -29855,7 +28801,6 @@ hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -29896,26 +28841,6 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-eB
-LM
-Zy
-Zy
-el
-eB
-LM
-Zy
-Zy
-el
-eB
-LM
-Zy
-Zy
-el
-eB
-Cu
-Cu
-=======
 Bu
 Bu
 Bu
@@ -29934,7 +28859,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -30127,21 +29051,12 @@ Bu
 Bu
 Bu
 Jj
-<<<<<<< Updated upstream
-FU
-BY
-CN
-FU
-mc
-zS
-=======
 hA
 hA
 hA
 hA
 hA
 hA
->>>>>>> Stashed changes
 hA
 hA
 hA
@@ -30183,24 +29098,6 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-eB
-=======
 Bu
 Bu
 Bu
@@ -30217,7 +29114,6 @@ Bu
 Bu
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -30413,15 +29309,9 @@ Bu
 Bu
 Jj
 Jj
-<<<<<<< Updated upstream
-mc
-eW
-xq
-=======
 Jj
 Jj
 Jj
->>>>>>> Stashed changes
 Jj
 Jj
 Jj
@@ -30989,11 +29879,7 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-xr
-=======
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -31229,10 +30115,6 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-hv
-=======
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -31256,12 +30138,8 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-sA
-=======
 Bu
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -34023,11 +32901,7 @@ Bu
 Bu
 Bu
 Bu
-<<<<<<< Updated upstream
-MM
-=======
 Bu
->>>>>>> Stashed changes
 Bu
 Bu
 Bu
@@ -38689,7 +37563,7 @@ Bu
 Bu
 Bu
 Bu
-yy
+Bu
 Bu
 Bu
 Bu

@@ -209,7 +209,7 @@
 "ca" = (
 /obj/machinery/door/airlock/multi_tile/maintenance{
 	name = "Factory";
-	req_access = list(access_manufacturing)
+	req_access = list("ACCESS_MANUFACTURING")
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
@@ -1433,7 +1433,7 @@
 "mi" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Factory Overseer Office";
-	req_access = list(access_bridge)
+	req_access = list("ACCESS_BRIDGE")
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
@@ -1648,7 +1648,7 @@
 "nU" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Civilian Requisition";
-	req_access = list(access_manufacturing)
+	req_access = list("ACCESS_MANUFACTURING")
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)

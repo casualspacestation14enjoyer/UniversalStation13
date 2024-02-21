@@ -47,7 +47,7 @@
 	addtimer(CALLBACK(src, .proc/check_delete, animation), 15)
 
 
-/mob/proc/death(gibbed,deathmessage="seizes up and falls limp...", show_dead_message = "ERR: D-V Replay Error: Fatality")
+/mob/proc/death(gibbed,deathmessage="seizes up and falls limp...", show_dead_message = "YOU'RE DEAD.")
 	if(stat == DEAD)
 		return 0
 

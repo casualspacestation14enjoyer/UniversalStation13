@@ -2,7 +2,7 @@
 	var/emergency_shuttle_called_message
 	var/emergency_shuttle_called_sound
 
-	var/command_report_sound
+	var/command_report_sound = 'sound/voice/announcement/dingdong.ogg'
 
 	var/electrical_storm_moderate_sound
 	var/electrical_storm_major_sound

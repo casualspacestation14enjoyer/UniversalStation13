@@ -22,6 +22,10 @@
 			return access_research
 		if(NETWORK_THUNDER)
 			return 0
+		if(NETWORK_ADMIN)
+			return access_bridge
+		if(NETWORK_CITY)
+			return 0
 
 	return access_security // Default for all other networks
 

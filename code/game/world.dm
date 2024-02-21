@@ -3,7 +3,7 @@
 #define THROTTLE_MAX_BURST 15 SECONDS
 #define SET_THROTTLE(TIME, REASON) throttle[1] = base_throttle + (TIME); throttle[2] = (REASON);
 
-/var/server_name = "TeguStation"
+/var/server_name = "UniversalStation 22"
 /var/game_id = null
 
 GLOBAL_VAR(href_logfile)

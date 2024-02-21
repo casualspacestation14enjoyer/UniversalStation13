@@ -3,6 +3,7 @@
 
 	uniform = /obj/item/clothing/under/color/blue
 	shoes = /obj/item/clothing/shoes/brown
+	l_ear = null
 
 	id_slot = slot_wear_id
 	id_types = list(/obj/item/card/id/civilian)

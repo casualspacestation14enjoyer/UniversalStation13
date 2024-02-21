@@ -30,6 +30,9 @@
 /area/cmb/metrocop_habitation
 	name = "Civil Protection Locker-room"
 
+/area/cmb/administration_office
+	name = "City Administrators Office"
+
 /area/cmb/administration_high_sec
 	name = "City Administration, High Security Area"
 

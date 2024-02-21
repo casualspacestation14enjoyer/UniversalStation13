@@ -5,6 +5,7 @@
 	uniform = /obj/item/clothing/under/color/grey
 	l_ear = /obj/item/device/radio/headset
 	shoes = /obj/item/clothing/shoes/black
+	back = /obj/item/storage/backpack/satchel
 
 	id_slot = slot_wear_id
 	id_types = list(/obj/item/card/id/civilian)

@@ -45,6 +45,8 @@
 #define NETWORK_EXODUS "Exodus"
 #define NETWORK_MEDICAL "Medical"
 #define NETWORK_MERCENARY "MercurialNet"
+#define NETWORK_CITY "CityNet"
+#define NETWORK_ADMIN "Administration"
 #define NETWORK_MINE "Mining"
 #define NETWORK_RESEARCH "Research"
 #define NETWORK_ROBOTS "Robots"

@@ -1,6 +1,6 @@
 GLOBAL_LIST_EMPTY(all_observable_events)
 
-GLOBAL_LIST_INIT(font_resources, list('fonts/Shage/Shage.ttf'))
+GLOBAL_LIST_INIT(font_resources, list('fonts/Shage/Shage.ttf','fonts/Combine/Combine.ttf'))
 
 
 // True if net rebuild will be called manually after an event.

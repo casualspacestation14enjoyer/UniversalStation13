@@ -135,7 +135,7 @@ var/message_delay = 0 // To make sure restarting the recentmessages list is kept
 
 /obj/machinery/telecomms/allinone/Initialize()
 	if(!listening_freqs)
-		listening_freqs = ANTAG_FREQS	//Covers any updates to ANTAG_FREQS
+		listening_freqs = DEPT_FREQS	//Covers any updates to ANTAG_FREQS
 	return ..()
 
 /obj/machinery/telecomms/allinone/receive_signal(datum/signal/signal)
@@ -617,4 +617,3 @@ var/message_delay = 0 // To make sure restarting the recentmessages list is kept
 	//to_world_log("Level: [signal.data["level"]] - Done: [signal.data["done"]]")
 
 	return signal
-

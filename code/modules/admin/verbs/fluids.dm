@@ -1,14 +1,16 @@
 /datum/admins/proc/spawn_fluid_verb()
-	set name = "Spawn Water"
+	set name = "Spawn Fluid"
 	set desc = "Flood the turf you are standing on."
 	set category = "Debug"
 
 	if(!check_rights(R_SPAWN)) return
 	var/mob/user = usr
 	if(istype(user) && user.client)
+		var/choice = input("Select reagent type", "Reagents") as null|anything in typesof(/datum/reagent)
+		if(!choice) return
 		for(var/thing in trange(1, get_turf(user)))
 			var/turf/T = thing
-			T.add_fluid(2000, /datum/reagent/water)
+			T.add_fluid(2000, choice)
 
 /datum/admins/proc/jump_to_fluid_source()
 

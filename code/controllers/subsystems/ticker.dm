@@ -108,7 +108,7 @@ SUBSYSTEM_DEF(ticker)
 
 	spawn(0)//Forking here so we dont have to wait for this to finish
 		mode.post_setup() // Drafts antags who don't override jobs.
-		to_world("<span class='info'><B>Enjoy the game!</B></span>")
+		to_world(SPAN_BOLD("<font size='3'>[pick("Happy 7 hour war anniversarry!","Beat some combine skulls in for me.","Foundation-19 Networks? Who needs that?","Enjoy the game!","Death to racism!","Death to furries!","This is like lifeweb but not trash.","Deathnet was doomed to die.","What does it truly mean to be a fascist?","I was about to set you up with a server and everything!")]</font>"))
 		if(LAZYLEN(GLOB.using_map.welcome_sound))
 			sound_to(world, sound(pick(GLOB.using_map.welcome_sound)))
 
@@ -336,7 +336,7 @@ Helpers
 	var/captainless=1
 	for(var/mob/living/carbon/human/player in GLOB.player_list)
 		if(player && player.mind && player.mind.assigned_role)
-			if(player.mind.assigned_role == "Captain")
+			if(player.mind.assigned_role == "City Administrator")
 				captainless=0
 			if(!player_is_antag(player.mind, only_offstation_roles = 1))
 				SSjobs.equip_rank(player, player.mind.assigned_role, 0)

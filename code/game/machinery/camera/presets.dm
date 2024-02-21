@@ -10,6 +10,12 @@
 /obj/machinery/camera/network/mercenary
 	network = list(NETWORK_MERCENARY)
 
+/obj/machinery/camera/network/city
+	network = list(NETWORK_CITY)
+
+/obj/machinery/camera/network/admin
+	network = list(NETWORK_ADMIN)
+
 /obj/machinery/camera/network/mining
 	network = list(NETWORK_MINE)
 

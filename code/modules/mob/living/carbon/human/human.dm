@@ -1615,7 +1615,7 @@
 
 /mob/living/carbon/human/need_breathe()
 	if(!(mNobreath in mutations) && species.breathing_organ && should_have_organ(species.breathing_organ))
-		return 1
+		return 0
 	else
 		return 0
 

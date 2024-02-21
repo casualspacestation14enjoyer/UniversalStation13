@@ -155,9 +155,11 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 
 /datum/job/overwatch_elite/equip(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
 	H.fully_replace_character_name("OTA::[pick("LEADER","FLASH","RANGER","HUNTER","BLADE","HAMMER","SCAR","SWEEPER","SWORD","SAVAGE","RAZOR")]>>[rand(1111,9999)]")
+	. = ..()
 	for(var/obj/item/clothing/clothing in list(H.head, H.wear_mask, H.wear_suit, H.w_uniform, H.gloves, H.shoes))
 		clothing.canremove = 0
-	. = ..()
 
-/datum/job/overwatch_elite/handle_variant_join(mob/living/carbon/human/H, alt_title)
-	return H && H.change_species(/datum/species/human/synthetic)
+/datum/job/overwatch_elite/post_equip_rank(mob/person, alt_title)
+	human.change_species(/datum/species/human/synthetic)
+	. = ..()
+	var/mob/living/carbon/human/human = person

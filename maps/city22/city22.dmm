@@ -934,6 +934,12 @@
 "hi" = (
 /turf/simulated/floor/wood,
 /area/space)
+"hl" = (
+/obj/effect/landmark/map_data{
+	height = 2
+	},
+/turf/simulated/open,
+/area/space)
 "hm" = (
 /obj/structure/sign/poster{
 	pixel_y = 32
@@ -1940,10 +1946,10 @@
 /turf/simulated/floor/tiled/white,
 /area/cmb/medbay)
 "pi" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/road,
 /area/outside)
 "pm" = (
@@ -2955,6 +2961,12 @@
 /obj/item/toy/torchmodel,
 /turf/simulated/floor/tiled/techmaint,
 /area/cmb/medbay)
+"xj" = (
+/obj/effect/landmark/map_data{
+	height = 2
+	},
+/turf/simulated/planet_edge,
+/area/space)
 "xl" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/chewables/candy/cookies,
@@ -5051,10 +5063,10 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
 "Mv" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/road,
 /area/outside)
 "Mz" = (
@@ -72305,7 +72317,7 @@ ZR
 "}
 
 (1,1,2) = {"
-RZ
+xj
 RZ
 RZ
 RZ
@@ -137841,7 +137853,7 @@ ID
 "}
 
 (1,1,3) = {"
-uQ
+hl
 uQ
 uQ
 uQ

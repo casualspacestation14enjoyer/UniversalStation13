@@ -73,7 +73,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	power_light = 0
 	power_equip = 0
 	power_environ = 0
-	has_gravity = 0
+	has_gravity = 1
 	area_flags = AREA_FLAG_EXTERNAL | AREA_FLAG_IS_NOT_PERSISTENT
 	ambience = list('sound/ambience/ambispace1.ogg','sound/ambience/ambispace2.ogg','sound/ambience/ambispace3.ogg','sound/ambience/ambispace4.ogg','sound/ambience/ambispace5.ogg')
 	secure = FALSE

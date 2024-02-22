@@ -220,7 +220,7 @@
 	if(istype(landing, /turf/simulated/open))
 		visible_message("\The [src] falls through \the [landing]!", "You hear a whoosh of displaced air.")
 	else
-		visible_message("\The [src] slams into \the [landing]!", "You hear something slam into the deck.")
+		visible_message("\The [src] slams into \the [landing]!", "You hear something slam onto the floor!")
 		if(fall_damage())
 			for(var/mob/living/M in landing.contents)
 				if(M == src)

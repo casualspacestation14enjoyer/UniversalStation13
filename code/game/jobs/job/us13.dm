@@ -160,6 +160,6 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 		clothing.canremove = 0
 
 /datum/job/overwatch_elite/post_equip_rank(mob/person, alt_title)
+	var/mob/living/carbon/human/human = person
 	human.change_species(/datum/species/human/synthetic)
 	. = ..()
-	var/mob/living/carbon/human/human = person

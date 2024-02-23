@@ -32,8 +32,9 @@
 /obj/machinery/trade_beacon/sending
 	name = "sending trade beacon"
 	icon_state = "beacon_sending"
+	construct_state = /decl/machine_construction/default/panel_closed
 	var/export_cooldown
-	var/export_cooldown_time = 120 SECONDS
+	var/export_cooldown_time = 90 SECONDS
 
 /obj/machinery/trade_beacon/sending/Initialize()
 	. = ..()
@@ -52,6 +53,8 @@
 			continue
 		if(A.invisibility)
 			continue
+		if(istype(A, /obj/screen))
+			continue
 		objects += A
 	return objects
 
@@ -65,6 +68,7 @@
 /* Receiving */
 /obj/machinery/trade_beacon/receiving
 	name = "receiving trade beacon"
+	construct_state = /decl/machine_construction/default/panel_closed
 
 /obj/machinery/trade_beacon/receiving/Initialize()
 	. = ..()

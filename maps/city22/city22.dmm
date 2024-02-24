@@ -54,6 +54,10 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
+"ap" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/asteroid,
+/area/space)
 "ax" = (
 /obj/item/reagent_containers/pill/pod/orange,
 /turf/simulated/floor/tiled/old_tile{
@@ -932,7 +936,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/cmb/misc_buildings)
 "hi" = (
-/turf/simulated/floor/wood,
+/turf/simulated/floor/wood{
+	name = "wooden bridge"
+	},
 /area/space)
 "hl" = (
 /obj/effect/landmark/map_data{
@@ -1837,6 +1843,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
+"ok" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/simulated/floor/tiled/sidewalk,
+/area/outside)
 "ol" = (
 /obj/machinery/door/unpowered/simple/wood{
 	dir = 4
@@ -2143,6 +2156,11 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/trainstation)
+"qP" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/asteroid,
+/area/space)
 "qV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3192,6 +3210,12 @@
 /obj/random/maintenance/clean,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
+"yA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/simulated/floor/tiled/sidewalk,
+/area/outside)
 "yD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3223,6 +3247,13 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/trainstation)
+"yP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/simulated/floor/tiled/sidewalk,
+/area/outside)
 "yU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/trash,
@@ -3484,6 +3515,13 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/cmb/misc_buildings)
+"Bh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/outside)
 "Bk" = (
 /obj/item/clothing/suit/bio_suit/janitor,
 /obj/item/clothing/head/bio_hood/janitor,
@@ -3631,6 +3669,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/cmb/misc_buildings)
+"Cb" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/outside)
 "Cc" = (
 /obj/machinery/vitals_monitor,
 /obj/machinery/light/small/yellowish{
@@ -4158,6 +4202,9 @@
 "FN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
 "FS" = (
@@ -4167,6 +4214,11 @@
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"FT" = (
+/turf/simulated/floor/wood{
+	name = "wooden bridge"
+	},
+/area/outside)
 "FU" = (
 /obj/structure/table/standard,
 /obj/item/clothing/mask/surgical,
@@ -4585,7 +4637,9 @@
 /area/cmb/misc_buildings)
 "Ja" = (
 /obj/structure/railing/mapped,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/wood{
+	name = "wooden bridge"
+	},
 /area/space)
 "Jb" = (
 /obj/item/ammo_casing/pistol/used,
@@ -4649,6 +4703,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
+"JF" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/simulated/floor/tiled/sidewalk,
+/area/outside)
 "JH" = (
 /obj/structure/rubble/house,
 /obj/effect/decal/cleanable/cobweb,
@@ -4769,6 +4829,13 @@
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/misc_buildings)
+"Kn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/simulated/floor/tiled/cmb_tiled/c,
+/area/outside)
 "Ks" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -6014,6 +6081,10 @@
 /obj/item/storage/candle_box/scented,
 /turf/simulated/floor/carpet/blue3,
 /area/cmb/misc_buildings)
+"Tt" = (
+/obj/structure/ladder,
+/turf/simulated/open,
+/area/outside)
 "Tv" = (
 /obj/structure/cmb_forcefield{
 	dir = 4
@@ -6315,7 +6386,9 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/wood{
+	name = "wooden bridge"
+	},
 /area/space)
 "Wb" = (
 /obj/structure/railing/mapped{
@@ -6352,6 +6425,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"Wl" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/asteroid,
+/area/space)
 "Wp" = (
 /obj/structure/table/steel,
 /obj/structure/window/reinforced{
@@ -6504,6 +6583,14 @@
 	},
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
+"Xn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/simulated/floor/tiled/sidewalk,
+/area/outside)
 "Xp" = (
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
@@ -6730,6 +6817,10 @@
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
+"ZA" = (
+/obj/structure/ladder/up,
+/turf/simulated/floor/asteroid,
+/area/space)
 "ZC" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/clean,
@@ -14167,12 +14258,12 @@ HS
 HS
 HS
 HS
-HS
-HS
-HS
-HS
-HS
-HS
+Bu
+ap
+ap
+ap
+ap
+ap
 HS
 HS
 HS
@@ -14422,15 +14513,15 @@ HS
 HS
 HS
 HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
+ap
+ap
+ap
+ap
+Bu
+ap
+Bu
+Bu
+qP
 HS
 HS
 HS
@@ -14678,17 +14769,17 @@ HS
 HS
 HS
 HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
+ap
+ap
+Bu
+Bu
+qP
+Bu
+Bu
+ap
+Bu
+ap
+qP
 HS
 HS
 HS
@@ -14935,17 +15026,17 @@ HS
 HS
 HS
 HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
+Bu
+ap
+Bu
+Bu
+ap
+qP
+ap
+Bu
+Bu
+Bu
+Wl
 HS
 HS
 HS
@@ -15193,16 +15284,16 @@ HS
 HS
 HS
 HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
+Bu
+Bu
+ap
+Bu
+Bu
+ap
+qP
+Bu
+ap
+ap
 HS
 HS
 HS
@@ -15451,13 +15542,13 @@ HS
 HS
 HS
 HS
-HS
-HS
-HS
-HS
-HS
-HS
-HS
+ZA
+Bu
+ap
+Bu
+Bu
+Bu
+Bu
 HS
 HS
 HS
@@ -15710,12 +15801,12 @@ HS
 HS
 HS
 HS
+ap
+ap
 HS
-HS
-HS
-HS
-HS
-HS
+Bu
+ap
+Bu
 HS
 HS
 HS
@@ -79701,17 +79792,17 @@ dV
 dw
 dw
 fd
-fd
+Bh
 dw
 dw
-dw
+JN
 dw
 gm
 gm
 dw
 dw
 dw
-dw
+Cb
 hA
 hA
 hA
@@ -79959,16 +80050,16 @@ dw
 dw
 fd
 FN
+JN
 fd
+JN
+JN
+JN
+JN
 fd
-FN
+JN
 dw
-dw
-FN
-fd
-FN
-dw
-fd
+Kn
 hA
 hA
 hA
@@ -80215,17 +80306,17 @@ Wp
 dw
 fd
 dw
+Bh
+JN
+JN
+JN
+JN
+JN
+JN
 fd
-Tm
-Tm
-fd
-dw
-dw
-FN
-FN
-fd
-fd
-fd
+JN
+JN
+Kn
 YW
 YW
 hA
@@ -80472,17 +80563,17 @@ hA
 hA
 YW
 Zp
-Zp
-Zp
-yD
-Zp
-YW
-Zp
-Zp
-hA
-YW
-YW
-YW
+Xn
+FT
+FT
+FT
+FT
+FT
+FT
+FT
+FT
+FT
+yP
 hA
 YW
 hA
@@ -80729,17 +80820,17 @@ Zp
 YW
 Om
 yD
-Zp
-Zp
-Zp
-yD
-hA
-YW
-hA
-Zp
-YW
-hA
-YW
+Xn
+FT
+FT
+FT
+FT
+FT
+FT
+FT
+FT
+FT
+yP
 YW
 YW
 hA
@@ -80986,17 +81077,17 @@ YW
 hA
 hA
 YW
+ok
+Tt
+JN
+JN
+JN
+JN
+JN
+hA
 YW
 hA
-hA
-YW
-hA
-hA
-hA
-hA
-YW
-hA
-hA
+JF
 Zp
 hA
 hA
@@ -81243,17 +81334,17 @@ hA
 hA
 hA
 OO
-hA
+yA
 YW
 hA
-hA
-hA
+JN
+JN
 hA
 hA
 OO
 hA
 hA
-YW
+yP
 hA
 YW
 hA

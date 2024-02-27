@@ -63,7 +63,7 @@
 
 /obj/item/reagent_containers/food/drinks/cans/breen/New()
 	. = ..()
-	reagents.add_reagent(/datum/reagent/water, 30) // TODO: new reagent for breen watah
+	reagents.add_reagent(/datum/reagent/water/breen, 30)
 
 /obj/structure/phone_booth
 	name = "phone booth"
@@ -78,7 +78,7 @@
 /obj/structure/phone_booth/Initialize()
 	. = ..()
 	if(random_num)
-		phone_number = rand(1, 999)
+		phone_number = "[rand(1, 999)]-[rand(10, 99)]"
 
 /obj/structure/traffic_pole
 	name = "traffic pole"

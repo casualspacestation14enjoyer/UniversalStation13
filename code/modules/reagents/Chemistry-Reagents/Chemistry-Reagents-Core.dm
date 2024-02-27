@@ -152,6 +152,10 @@
 	heating_sound = null
 	value = 0
 
+/datum/reagent/water/breen
+	taste_description = "something you already forgot"
+	name = "Breen's Water"
+
 /datum/reagent/water/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(!istype(M, /mob/living/carbon/slime) && alien != IS_SLIME)
 		return

@@ -18,9 +18,13 @@
 	available_by_default = TRUE
 
 /datum/job/factory_overseer
-	title = "Factory Overseer"
+	title = "CWU Overseer"
 	social_class = SOCIAL_CLASS_MED
 	selection_color = "#8b6229"
+	department = "Civil Workers Union"
+
+	require_whitelist = "administration"
+
 	head_position = 1
 	total_positions = 1
 	spawn_positions = 1
@@ -29,9 +33,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/overseer
 	available_by_default = TRUE
 
-/datum/job/citizen/worker // child worker
+/datum/job/citizen/worker
 	title = "Factory Worker"
 	selection_color = "#8a704c"
+	department = "Civil Workers Union"
 
 	total_positions = 4
 	spawn_positions = 4
@@ -117,6 +122,8 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	supervisors = "Combine officials and the Earth Administrator"
 	social_class = SOCIAL_CLASS_MAX
 
+	require_whitelist = "administration"
+
 	access = list()
 	minimal_access = list()
 
@@ -134,6 +141,8 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	department = "City Command"
 	supervisors = "the City Administrator"
 	social_class = SOCIAL_CLASS_HIGH
+
+	require_whitelist = "administration"
 
 	access = list()
 	minimal_access = list()

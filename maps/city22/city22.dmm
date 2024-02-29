@@ -4664,6 +4664,10 @@
 /obj/machinery/factorium/molder,
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
+"Jh" = (
+/obj/machinery/vending/sovietsoda/breen,
+/turf/simulated/floor/exoplanet/grass,
+/area/cmb/misc_buildings)
 "Jj" = (
 /turf/simulated/wall,
 /area/outside)
@@ -4893,6 +4897,10 @@
 	},
 /turf/simulated/open,
 /area/cmb/misc_buildings)
+"KL" = (
+/obj/machinery/vending/sovietsoda/breen,
+/turf/simulated/floor/tiled/sidewalk,
+/area/outside)
 "KN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/defibrillator/loaded,
@@ -5031,6 +5039,10 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
+"LO" = (
+/obj/machinery/vending/sovietsoda/breen,
+/turf/simulated/floor/tiled/cmb_tiled/b,
+/area/outside)
 "LQ" = (
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/reinforced,
@@ -82349,7 +82361,7 @@ Jj
 Jj
 Jj
 Jj
-hA
+KL
 Zp
 hA
 DV
@@ -82582,7 +82594,7 @@ Bu
 Bu
 Bu
 Jj
-wK
+LO
 dQ
 wK
 kq
@@ -82606,7 +82618,7 @@ Jj
 Jj
 Jj
 Jj
-hA
+KL
 Zp
 hA
 DV
@@ -83897,7 +83909,7 @@ hA
 Us
 nf
 Bk
-WG
+Us
 TE
 Gl
 Us
@@ -84409,9 +84421,9 @@ MS
 hA
 hA
 Us
-WG
-WG
-WG
+Us
+Us
+Us
 dB
 dB
 Us
@@ -84429,7 +84441,7 @@ fz
 Up
 JJ
 Zl
-hA
+KL
 YW
 hA
 Rg
@@ -84668,7 +84680,7 @@ hA
 Us
 Vi
 kJ
-WG
+Us
 ht
 Tj
 Us
@@ -85182,7 +85194,7 @@ hA
 Us
 Ai
 Tr
-WG
+Us
 uo
 gQ
 Us
@@ -85437,10 +85449,10 @@ OO
 hA
 hA
 Us
-WG
-WG
-WG
-WG
+Us
+Us
+Us
+Us
 IO
 Us
 Zl
@@ -85953,7 +85965,7 @@ hA
 Us
 yX
 so
-WG
+Us
 DP
 DP
 Us
@@ -96199,7 +96211,7 @@ Hy
 aM
 Us
 Us
-wK
+LO
 wK
 wK
 Jj
@@ -99276,7 +99288,7 @@ Bu
 Bu
 Bu
 Us
-Uw
+Jh
 Uw
 Uw
 Uw

@@ -98,13 +98,15 @@
 	worn_state = "cauniform"
 
 /obj/item/clothing/under/fo_uniform
-	name = "factory overseer's uniform"
-	desc = "The same as the uniform of the worker, but it has a red armband. Don't go mimicking historical figures now."
+	name = "CWU Overseer's uniform"
+	desc = "Nice little tunic that has a red armband. Don't go mimicking historical figures now."
 	icon_state = "detective2"
 	worn_state = "founiform"
+	accessories = list(/obj/item/clothing/accessory/badge/cwu)
 
 /obj/item/clothing/under/fw_uniform
-	name = "factory worker's uniform"
+	name = "civil workers union uniform"
 	desc = "Not stained with oil or blood... yet."
 	icon_state = "work"
 	worn_state = "fwuniform"
+	accessories = list(/obj/item/clothing/accessory/badge/cwu)

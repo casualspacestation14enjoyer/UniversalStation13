@@ -18,7 +18,7 @@
 	id_types = list(/obj/item/card/id/civilian/worker)
 
 /decl/hierarchy/outfit/job/overseer
-	name = OUTFIT_JOB_NAME("Factory Overseer")
+	name = OUTFIT_JOB_NAME("CWU Overseer")
 	uniform = /obj/item/clothing/under/fo_uniform
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/tactical

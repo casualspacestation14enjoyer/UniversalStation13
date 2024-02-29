@@ -9,6 +9,8 @@
 	boss_name = "The Universal Union"
 	boss_short = "The Combine"
 
+	map_admin_faxes = list("Universal Union Terran Network", "Earth Administrator Network")
+
 	supply_currency_name = "Combine Civilian Wellness Requisition Points"
 	supply_currency_name_short = "CCWRP"
 

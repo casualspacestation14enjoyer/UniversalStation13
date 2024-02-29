@@ -17,7 +17,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/citizen
 	available_by_default = TRUE
 
-/datum/job/factory_overseer
+/datum/job/cwu_overseer
 	title = "CWU Overseer"
 	social_class = SOCIAL_CLASS_MED
 	selection_color = "#8b6229"
@@ -121,6 +121,8 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	department = "City Command"
 	supervisors = "Combine officials and the Earth Administrator"
 	social_class = SOCIAL_CLASS_MAX
+	head_position = 1
+	selection_color = "#ff0000ff"
 
 	require_whitelist = "administration"
 
@@ -141,6 +143,7 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	department = "City Command"
 	supervisors = "the City Administrator"
 	social_class = SOCIAL_CLASS_HIGH
+	selection_color = "#e70000ff"
 
 	require_whitelist = "administration"
 
@@ -163,12 +166,16 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	return get_all_station_access()
 
 /datum/job/overwatch_elite/equip(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
+	if(!H)	return 0
 	H.fully_replace_character_name("OTA::[pick("LEADER","FLASH","RANGER","HUNTER","BLADE","HAMMER","SCAR","SWEEPER","SWORD","SAVAGE","RAZOR")]>>[rand(1111,9999)]")
 	. = ..()
 	for(var/obj/item/clothing/clothing in list(H.head, H.wear_mask, H.wear_suit, H.w_uniform, H.gloves, H.shoes))
 		clothing.canremove = 0
+	if(prob(1))
+		var/rand = pick(typesof(/obj/item/clothing/accessory/pronouns))
+		new rand(get_turf(H))
 
-/datum/job/overwatch_elite/post_equip_rank(mob/person, alt_title)
-	var/mob/living/carbon/human/human = person
-	human.change_species(/datum/species/human/synthetic)
-	. = ..()
+/datum/job/overwatch_elite/handle_variant_join(mob/living/carbon/human/H, alt_title)
+	if(!H) return
+	H.add_language(/datum/language/human/english)
+	return H.change_species(SPECIES_TRANNIE)

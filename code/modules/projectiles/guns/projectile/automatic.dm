@@ -161,6 +161,35 @@
 		icon_state = "arifle-empty"
 		wielded_item_state = "arifle-wielded-empty"
 
+// OSIPR
+
+/obj/item/gun/projectile/automatic/assault_rifle/osipr
+	name = "OSIPR"
+	desc = "The Overwatch Standard-Issue Pulse Rifle. It is a Pulse Rifle, it fires pulses."
+	icon = 'icons/obj/guns/7guns.dmi'
+	icon_state = "osipr"
+	magazine_type = /obj/item/ammo_magazine/rifle/osipr
+	allowed_magazines = /obj/item/ammo_magazine/rifle/osipr
+
+/obj/item/ammo_magazine/rifle/osipr
+	name = "pulse-rifle magazine"
+	icon = 'icons/obj/guns/7guns.dmi'
+	icon_state = "osiprmag"
+	ammo_type = /obj/item/ammo_magazine/rifle/osipr
+
+/obj/item/ammo_magazine/rifle/osipr/on_update_icon()
+	. = ..()
+	if(stored_ammo.len == 0)
+		icon_state = "[initial(icon_state)]-e"
+
+/obj/item/gun/projectile/automatic/assault_rifle/osipr/on_update_icon()
+	if(ammo_magazine)
+		icon_state = "osipr"
+		wielded_item_state = "arifle-wielded"
+	else
+		icon_state = "osipr-e"
+		wielded_item_state = "arifle-wielded-empty"
+
 /obj/item/gun/projectile/automatic/sec_smg
 	name = "submachine gun"
 	desc = "The WT-550 Saber is a cheap self-defense weapon, mass-produced by Ward-Takahashi for paramilitary and private use."

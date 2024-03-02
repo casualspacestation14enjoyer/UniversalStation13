@@ -482,3 +482,9 @@
 	id = access_civilprotection
 	desc = "Civil Protection Access"
 	access_type = ACCESS_TYPE_STATION
+
+/var/const/access_cityadmin = "ACCESS_CA"
+/datum/access/cityadmin
+	id = access_cityadmin
+	desc = "City Administration Access"
+	access_type = ACCESS_TYPE_STATION

@@ -246,6 +246,12 @@
 	penetrating = 1
 	distance_falloff = 1.5
 
+/obj/item/projectile/bullet/rifle/osipr
+	fire_sound = 'sound/weapons/gunshot/us13/ar2_fire.ogg'
+	damage = 50
+	armor_penetration = 30
+	muzzle_type = /obj/effect/projectile/muzzle/pulse
+
 /obj/item/projectile/bullet/rifle/flame
 	name = "incendiary bullet"
 	damage = 10

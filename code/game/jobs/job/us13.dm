@@ -172,8 +172,8 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	for(var/obj/item/clothing/clothing in list(H.head, H.wear_mask, H.wear_suit, H.w_uniform, H.gloves, H.shoes))
 		clothing.canremove = 0
 	if(prob(1))
-		var/rand = pick(typesof(/obj/item/clothing/accessory/pronouns))
-		new rand(get_turf(H))
+		var/obj/item/clothing/accessory/pronouns/random = pick(typesof(/obj/item/clothing/accessory/pronouns))
+		new random(get_turf(H))
 
 /datum/job/overwatch_elite/handle_variant_join(mob/living/carbon/human/H, alt_title)
 	if(!H) return

@@ -64,7 +64,7 @@
 
 	suit = /obj/item/clothing/suit/armor/vest/old/security/owE
 	mask = /obj/item/clothing/mask/owE
-	suit_store = /obj/item/gun/projectile/automatic/assault_rifle/mp7 // temp, make OSIPR
+	suit_store = /obj/item/gun/projectile/automatic/assault_rifle/osipr
 
 /decl/hierarchy/outfit/job/earthadministrator
 	name = OUTFIT_JOB_NAME("Earth Administrator")

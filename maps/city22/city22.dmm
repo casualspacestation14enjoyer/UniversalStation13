@@ -158,6 +158,13 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/trainstation)
+"by" = (
+/obj/machinery/door/airlock/highsecurity{
+	req_access = list("ACCESS_CP");
+	name = "Prison Cell"
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "bD" = (
 /obj/machinery/jukebox/old,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
@@ -197,6 +204,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"bO" = (
+/obj/structure/closet/secure_closet{
+	name = "cell locker";
+	req_access = list("ACCESS_CP")
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "bP" = (
 /obj/effect/floor_decal/corner/lime{
 	color = "#2E8B57";
@@ -268,6 +282,10 @@
 /obj/structure/rubble/house,
 /turf/simulated/floor/tiled/sidewalk,
 /area/cmb/misc_buildings)
+"cr" = (
+/obj/structure/closet,
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "cs" = (
 /turf/simulated/floor/reinforced,
 /area/cmb/metrocop_habitation)
@@ -348,6 +366,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/wall,
 /area/cmb/misc_buildings)
+"dg" = (
+/obj/machinery/light/dystopian{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "dk" = (
 /obj/machinery/light/dystopian{
 	dir = 4
@@ -729,6 +753,10 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/cmb/misc_buildings)
+"fC" = (
+/obj/structure/bed,
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "fF" = (
 /obj/structure/table/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -797,6 +825,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/old_tile,
 /area/cmb/misc_buildings)
+"gg" = (
+/obj/structure/table/steel,
+/obj/item/wirecutters,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "gh" = (
 /obj/structure/bed/chair/bench,
 /obj/machinery/light/small/dystopian{
@@ -1045,7 +1078,8 @@
 /area/cmb/misc_buildings)
 "hV" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "City Administrator Office"
+	name = "City Administrator Office";
+	req_access = list("ACCESS_CA")
 	},
 /obj/machinery/door/blast/regular/open{
 	name = "LOCKDOWN";
@@ -2271,6 +2305,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/cmb/medbay)
+"rM" = (
+/obj/machinery/light/small/dystopian{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "rO" = (
 /obj/item/trash/pistachios{
 	pixel_x = -10;
@@ -2292,6 +2332,14 @@
 /obj/machinery/telecomms/allinone,
 /turf/simulated/floor/tiled/techfloor,
 /area/outside)
+"rZ" = (
+/obj/structure/table/steel,
+/obj/item/handcuffs,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "sc" = (
 /obj/machinery/light/dystopian{
 	dir = 1
@@ -2586,6 +2634,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"uf" = (
+/obj/machinery/door/airlock/highsecurity{
+	req_access = list("ACCESS_CP");
+	name = "Rank Leader Office"
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "ug" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/waffles,
@@ -2603,6 +2658,10 @@
 "ul" = (
 /turf/simulated/floor/tiled/white,
 /area/cmb/medbay)
+"um" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "un" = (
 /obj/structure/morgue{
 	dir = 1
@@ -2737,6 +2796,10 @@
 /obj/random/maintenance/clean,
 /turf/simulated/floor/tiled/old_tile,
 /area/cmb/misc_buildings)
+"vk" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "vm" = (
 /obj/random/cash,
 /turf/simulated/floor/tiled/steel_grid,
@@ -3515,6 +3578,13 @@
 	},
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/cmb/misc_buildings)
+"Bc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start{
+	name = "Doctor"
+	},
+/turf/simulated/floor/tiled/white,
+/area/cmb/medbay)
 "Bh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/warning_stripes{
@@ -3638,6 +3708,12 @@
 /obj/item/device/flashlight/flare/glowstick/blue,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"BL" = (
+/obj/effect/landmark/start{
+	name = "Doctor"
+	},
+/turf/simulated/floor/tiled/white,
+/area/cmb/medbay)
 "BM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/rack,
@@ -4171,6 +4247,13 @@
 /obj/structure/rustcar,
 /turf/simulated/floor/exoplanet/grass,
 /area/cmb/misc_buildings)
+"FD" = (
+/obj/machinery/door/airlock/highsecurity{
+	req_access = list("ACCESS_CP");
+	name = "Re-Education Office"
+	},
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "FF" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/dirt,
@@ -4914,10 +4997,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/concrete,
 /area/outside)
+"KR" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "KY" = (
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
+"KZ" = (
+/obj/effect/landmark/start{
+	name = "Civil Protection Rank Leader"
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "La" = (
 /obj/structure/trashbin,
 /obj/machinery/light/small/dystopian{
@@ -4999,7 +5093,7 @@
 /area/cmb/misc_buildings)
 "Ly" = (
 /obj/effect/landmark/start{
-	name = "Factory Overseer"
+	name = "CWU Overseer"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
@@ -5043,6 +5137,12 @@
 /obj/machinery/vending/sovietsoda/breen,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
+"LP" = (
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "LQ" = (
 /obj/machinery/light/dystopian,
 /turf/simulated/floor/reinforced,
@@ -5220,6 +5320,12 @@
 /obj/item/newspaper,
 /turf/simulated/floor/lino,
 /area/cmb/misc_buildings)
+"Nb" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "Ne" = (
 /obj/structure/bed/chair/office{
 	dir = 8
@@ -5265,6 +5371,11 @@
 /obj/effect/decal/cleanable/greenglow,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/cmb/misc_buildings)
+"No" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "Nr" = (
 /obj/machinery/camera/network/city,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -5436,6 +5547,17 @@
 /obj/structure/street_light,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"OP" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
+"OQ" = (
+/obj/machinery/door/airlock/highsecurity{
+	req_access = list("ACCESS_CP");
+	name = "Prison Block"
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "OT" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning{
@@ -5650,6 +5772,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"QG" = (
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "QH" = (
 /obj/machinery/papershredder,
 /obj/effect/decal/cleanable/dirt,
@@ -5718,10 +5843,19 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_access)
+"Rm" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "Ro" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"Rp" = (
+/obj/structure/trashbin,
+/obj/machinery/light/dystopian,
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "Rt" = (
 /obj/structure/holohoop{
 	dir = 4
@@ -6029,6 +6163,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/medbay)
+"Tg" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "Th" = (
 /obj/structure/filingcabinet,
 /turf/simulated/floor/lino,
@@ -6070,6 +6208,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/c,
 /area/outside)
+"Tn" = (
+/obj/effect/landmark/start{
+	name = "Civil Protection Elite"
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "To" = (
 /obj/machinery/fabricator,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -6330,6 +6474,12 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/cmb/misc_buildings)
+"Vl" = (
+/obj/structure/table/steel,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "Vo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -6495,6 +6645,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
+"WB" = (
+/obj/structure/table/steel,
+/obj/item/clothing/glasses/blindfold,
+/obj/item/clothing/mask/muzzle,
+/obj/machinery/light/small/emergency{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "WF" = (
 /obj/item/paper/crumpled/bog,
 /turf/simulated/floor/tiled/old_tile,
@@ -6690,6 +6849,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/cmb/medbay)
+"Yw" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/lino,
+/area/cmb/administration_second_floor)
 "Yx" = (
 /obj/structure/mattress,
 /turf/simulated/floor/lino,
@@ -6744,6 +6908,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"YX" = (
+/obj/machinery/light/dystopian{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/cmb/administration_second_floor)
 "YY" = (
 /obj/machinery/vending/sovietsoda/breen,
 /obj/effect/decal/cleanable/dirt,
@@ -84705,7 +84875,7 @@ Rg
 EN
 Fk
 kb
-ul
+BL
 CA
 tR
 jW
@@ -85476,7 +85646,7 @@ Rg
 EN
 qa
 kb
-Yn
+Bc
 Yn
 bT
 jW
@@ -85918,7 +86088,7 @@ tz
 HU
 tz
 cF
-tz
+LP
 tz
 tz
 tz
@@ -87534,7 +87704,7 @@ YD
 jF
 ME
 Yn
-Yn
+Bc
 ul
 YD
 oU
@@ -88562,7 +88732,7 @@ YD
 jF
 ME
 ul
-Yn
+Bc
 Yn
 YD
 oO
@@ -142201,7 +142371,7 @@ uQ
 uQ
 uQ
 uQ
-uQ
+dq
 uQ
 uQ
 uQ
@@ -142451,18 +142621,18 @@ HT
 HT
 HT
 os
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+vk
+vk
+QP
+vk
+vk
+QP
+vk
+vk
+QP
+vk
+vk
+QP
 uQ
 uQ
 uQ
@@ -142708,18 +142878,18 @@ HT
 HT
 HT
 os
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+rM
+fC
+QP
+rM
+fC
+QP
+rM
+fC
+QP
+rM
+fC
+QP
 uQ
 uQ
 uQ
@@ -142965,18 +143135,18 @@ HQ
 HQ
 HQ
 os
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+bO
+QP
+lP
+bO
+QP
+lP
+bO
+QP
+lP
+bO
+QP
 uQ
 uQ
 uQ
@@ -143222,18 +143392,18 @@ PI
 PI
 PI
 PI
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+by
+QP
+QP
+by
+QP
+QP
+by
+QP
+QP
+by
+QP
+QP
 uQ
 uQ
 uQ
@@ -143479,18 +143649,18 @@ lP
 lP
 lP
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+dg
+lP
+lP
+dg
+lP
+lP
+dg
+lP
+lP
+dg
+QP
 uQ
 uQ
 uQ
@@ -143736,18 +143906,18 @@ lP
 lP
 ih
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+gx
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+Dx
+QP
 uQ
 uQ
 uQ
@@ -143993,18 +144163,18 @@ lP
 lP
 lP
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+Dx
+QP
+QP
+QP
+QP
+QP
 uQ
 uQ
 uQ
@@ -144250,23 +144420,23 @@ lP
 lP
 lP
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+Tn
+vk
+Tg
+Vl
+fC
+QP
+QP
+QP
+QP
+QP
+QP
 uQ
 uQ
 uQ
@@ -144506,24 +144676,24 @@ lP
 lP
 lP
 lP
+OQ
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+vk
+Tg
+KZ
+Dx
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+WB
+gg
+OP
+KR
+QP
 uQ
 uQ
 uQ
@@ -144764,23 +144934,23 @@ lP
 lP
 lP
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+vk
+Tg
+lP
+lP
+FD
+Rm
+OP
+Yw
+Nb
+QP
 uQ
 uQ
 uQ
@@ -145021,23 +145191,23 @@ lP
 lP
 lP
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+Tn
+vk
+Tg
+lP
+cr
+QP
+rZ
+um
+QG
+No
+QP
 uQ
 uQ
 uQ
@@ -145278,23 +145448,23 @@ lP
 lP
 Dx
 QP
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+gx
+lP
+lP
+lP
+lP
+lP
+Dx
+QP
+QP
+uf
+QP
+QP
+QP
+QP
+QP
+QP
+QP
 uQ
 uQ
 uQ
@@ -145535,18 +145705,18 @@ TT
 hQ
 hQ
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+Rp
+QP
 uQ
 uQ
 uQ
@@ -145792,18 +145962,18 @@ LQ
 hQ
 hQ
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+QP
 uQ
 uQ
 uQ
@@ -146049,18 +146219,18 @@ LQ
 hQ
 hQ
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+QP
 uQ
 uQ
 uQ
@@ -146306,18 +146476,18 @@ TT
 hQ
 hQ
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+gx
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+lP
+Dx
+QP
 uQ
 uQ
 uQ
@@ -146563,18 +146733,18 @@ dJ
 KE
 zU
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+YX
+lP
+lP
+YX
+lP
+lP
+YX
+lP
+lP
+YX
+QP
 uQ
 uQ
 uQ
@@ -146820,18 +146990,18 @@ KE
 KE
 AI
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+by
+QP
+QP
+by
+QP
+QP
+by
+QP
+QP
+by
+QP
+QP
 uQ
 uQ
 uQ
@@ -147077,18 +147247,18 @@ sG
 KE
 KE
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+lP
+bO
+QP
+lP
+bO
+QP
+lP
+bO
+QP
+lP
+bO
+QP
 uQ
 uQ
 uQ
@@ -147334,18 +147504,18 @@ hx
 sF
 vK
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+rM
+fC
+QP
+rM
+fC
+QP
+rM
+fC
+QP
+rM
+fC
+QP
 uQ
 uQ
 uQ
@@ -147591,18 +147761,18 @@ lY
 hQ
 hQ
 hQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
+vk
+vk
+QP
+vk
+vk
+QP
+vk
+vk
+QP
+vk
+vk
+QP
 uQ
 uQ
 uQ

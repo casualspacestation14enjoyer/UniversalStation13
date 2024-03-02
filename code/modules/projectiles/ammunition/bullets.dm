@@ -170,6 +170,10 @@
 	icon_state = "riflecasing"
 	spent_icon = "riflecasing-spent"
 
+/obj/item/ammo_casing/rifle/osipr
+	name = "pulse-plug casing"
+	projectile_type = /obj/item/projectile/bullet/rifle/osipr
+
 /obj/item/ammo_casing/rifle/flame
 	desc = "A incendiary rifle bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/flame

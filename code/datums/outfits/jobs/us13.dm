@@ -10,6 +10,12 @@
 	back = /obj/item/storage/backpack/satchel/grey
 	pda_type = null
 
+/decl/hierarchy/outfit/job/citizen/doctor
+	name = OUTFIT_JOB_NAME("Doctor")
+	uniform = /obj/item/clothing/under/fw_uniform
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/blue
+	id_types = list(/obj/item/card/id/civilian/doctor)
+
 /decl/hierarchy/outfit/job/citizen/worker
 	name = OUTFIT_JOB_NAME("Factory Worker")
 

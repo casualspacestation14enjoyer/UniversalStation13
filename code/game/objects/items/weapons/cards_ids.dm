@@ -590,6 +590,9 @@ var/const/NO_EMAG_ACT = -50
 /obj/item/card/id/civilian/worker
 	job_access_type = /datum/job/citizen/worker
 
+/obj/item/card/id/civilian/doctor
+	job_access_type = /datum/job/citizen/doctor
+
 /obj/item/card/id/civilian/bartender
 	job_access_type = /datum/job/bartender
 

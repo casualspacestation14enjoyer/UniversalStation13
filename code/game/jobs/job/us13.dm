@@ -33,6 +33,11 @@
 	outfit_type = /decl/hierarchy/outfit/job/overseer
 	available_by_default = TRUE
 
+	min_skill = list(
+		SKILL_BUREAUCRACY = SKILL_MASTER,
+		SKILL_COMBAT = SKILL_BASIC,
+		SKILL_WEAPONS = SKILL_BASIC)
+
 /datum/job/citizen/worker
 	title = "Factory Worker"
 	selection_color = "#8a704c"
@@ -50,6 +55,24 @@
 /datum/job/citizen/worker/handle_variant_join(mob/living/carbon/human/H, alt_title)
 	. = ..()
 	return H
+
+/datum/job/citizen/doctor
+	title = "Medic"
+	selection_color = "#8a704c"
+	department = "Civil Workers Union"
+
+	total_positions = 3
+	spawn_positions = 3
+	supervisors = "civil protection and the Factory Overseer"
+
+	outfit_type = /decl/hierarchy/outfit/job/citizen/doctor
+	available_by_default = TRUE
+
+	min_skill = list(
+		SKILL_COMBAT = SKILL_BASIC,
+		SKILL_WEAPONS = SKILL_BASIC,
+		SKILL_ANATOMY = SKILL_EXPERIENCED,
+		SKILL_MEDICAL = SKILL_EXPERIENCED)
 
 // COPS
 

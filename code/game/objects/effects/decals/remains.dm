@@ -6,19 +6,19 @@
 	anchored = FALSE
 
 /obj/item/remains/human
-	desc = "They look like human remains. They have a strange aura about them."
+	desc = "They look like human remains."
 
 /obj/effect/decal/remains	// Apparently used by cult somewhere?
-	desc = "They look like human remains. They have a strange aura about them."
+	desc = "They look like human remains."
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "remains"
 
 /obj/item/remains/xeno
-	desc = "They look like the remains of something... alien. They have a strange aura about them."
+	desc = "They look like the remains of something... alien."
 	icon_state = "remainsxeno"
 
 /obj/item/remains/robot
-	desc = "They look like the remains of something mechanical. They have a strange aura about them."
+	desc = "They look like the remains of something mechanical."
 	icon = 'icons/mob/robots_gibs.dmi'
 	icon_state = "remainsrobot"
 

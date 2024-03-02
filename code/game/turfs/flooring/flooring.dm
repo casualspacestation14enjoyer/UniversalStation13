@@ -161,7 +161,7 @@
 
 /decl/flooring/tiling
 	name = "floor"
-	desc = "A solid, heavy set of flooring plates."
+	desc = "A solid, heavy set of dusty and worn flooring plates."
 	icon = 'icons/turf/flooring/tiles.dmi'
 	icon_base = "tiled"
 	color = COLOR_DARK_GUNMETAL
@@ -182,14 +182,14 @@
 /decl/flooring/tiling/cmb_tiled/road
 	name = "road"
 	icon_base = "road"
-	desc = "Many years ago, automatons called 'cars' used to travel along these roads."
+	desc = "Remnants of a time when automatons known as 'cars' once traversed these paths, now silent witnesses."
 
 /decl/flooring/tiling/cmb_tiled/road/walk
 	icon_base = "road_walk"
 
 /decl/flooring/tiling/cmb_tiled/trainstation
-	name = "trainstation tiling"
-	desc = "Welcome, welcome to City... what was it again?"
+	name = "train-station tiling"
+	desc = "Worn and simple, these tiles bear the marks of countless footsteps."
 	icon_base = "trainstation"
 
 /decl/flooring/tiling/cmb_tiled/sidewalk

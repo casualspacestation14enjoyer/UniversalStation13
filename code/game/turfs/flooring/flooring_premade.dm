@@ -201,7 +201,7 @@
 
 /turf/simulated/floor/tiled/road
 	name = "road"
-	desc = "Many years ago, automatons called 'cars' used to travel along these roads."
+	desc = "Remnants of a time when automatons known as 'cars' once traversed these paths, now silent witnesses."
 	icon_state = "road"
 	initial_flooring = /decl/flooring/tiling/cmb_tiled/road
 
@@ -215,8 +215,8 @@
 	initial_flooring =/decl/flooring/tiling/cmb_tiled/sidewalk
 
 /turf/simulated/floor/tiled/cmb_tiled/trainstation
-	name = "trainstation tiling"
-	desc = "Welcome, welcome to City... what was it again?"
+	name = "train-station tiling"
+	desc = "Worn and simple, these tiles bear the marks of countless footsteps."
 	icon_state = "trainstation"
 	initial_flooring = /decl/flooring/tiling/cmb_tiled/trainstation
 

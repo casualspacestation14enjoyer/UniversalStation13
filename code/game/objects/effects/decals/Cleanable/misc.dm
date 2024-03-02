@@ -7,7 +7,7 @@
 
 /obj/effect/decal/cleanable/ash
 	name = "ashes"
-	desc = "Ashes to ashes, dust to dust, and into space."
+	desc = "Something was burnt here."
 	gender = PLURAL
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "ash"
@@ -77,7 +77,6 @@
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "cobweb2"
 
-//Vomit (sorry)
 /obj/effect/decal/cleanable/vomit
 	name = "vomit"
 	desc = "Gosh, how unpleasant."

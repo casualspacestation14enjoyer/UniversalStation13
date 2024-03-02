@@ -2,7 +2,7 @@
 /obj/item/melee/baton
 	icon = 'icons/obj/weapons/melee_physical.dmi'
 	name = "stunstick"
-	desc = "The standard issue Civil Protection subduing device, make those petty citizens listen to you!"
+	desc = "Ominous implement of control."
 	icon_state = "stunbaton"
 	item_state = "baton"
 	slot_flags = SLOT_BELT

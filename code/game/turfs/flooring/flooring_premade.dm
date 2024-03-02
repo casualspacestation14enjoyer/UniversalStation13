@@ -215,8 +215,8 @@
 	initial_flooring =/decl/flooring/tiling/cmb_tiled/sidewalk
 
 /turf/simulated/floor/tiled/cmb_tiled/trainstation
-	name = "trainstation tiling"
-	desc = "Welcome, welcome to City... what was it again?"
+	name = "train-station tiling"
+	desc = "Worn and simple, these tiles bear the marks of countless footsteps."
 	icon_state = "trainstation"
 	initial_flooring = /decl/flooring/tiling/cmb_tiled/trainstation
 

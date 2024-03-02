@@ -11,7 +11,7 @@ SUBSYSTEM_DEF(ticker)
 	var/list/gamemode_vote_results  //Will be a list, in order of preference, of form list(config_tag = number of votes).
 	var/bypass_gamemode_vote = 0    //Intended for use with admin tools. Will avoid voting and ignore any results.
 
-	var/master_mode = "extended"    //The underlying game mode (so "secret" or the voted mode). Saved to default back to previous round's mode in case the vote failed. This is a config_tag.
+	var/master_mode = "combine"    //The underlying game mode (so "secret" or the voted mode). Saved to default back to previous round's mode in case the vote failed. This is a config_tag.
 	var/datum/game_mode/mode        //The actual gamemode, if selected.
 	var/round_progressing = 1       //Whether the lobby clock is ticking down.
 
@@ -108,7 +108,7 @@ SUBSYSTEM_DEF(ticker)
 
 	spawn(0)//Forking here so we dont have to wait for this to finish
 		mode.post_setup() // Drafts antags who don't override jobs.
-		to_world(SPAN_BOLD("<font size='3'>[pick("Happy 7 hour war anniversarry!","Beat some combine skulls in for me.","Foundation-19 Networks? Who needs that?","Enjoy the game!","Death to racism!","Death to furries!","This is like lifeweb but not trash.","Deathnet was doomed to die.","What does it truly mean to be a fascist?","I was about to set you up with a server and everything!")]</font>"))
+		to_world(SPAN_BOLD("<font size='3'>[pick("Happy 7 hour war anniversary!","Beat some combine skulls in for me.","Foundation-19 Networks? Who needs that?","Enjoy the game!","Death to racism!","Death to furries!","This is like lifeweb but not trash.","Deathnet was doomed to die.","What does it truly mean to be a fascist?","I was about to set you up with a server and everything!")]</font>"))
 		if(LAZYLEN(GLOB.using_map.welcome_sound))
 			sound_to(world, sound(pick(GLOB.using_map.welcome_sound)))
 
@@ -238,7 +238,7 @@ Helpers
 			mode_to_try = gamemode_vote_results[1]
 			. = CHOOSE_GAMEMODE_RETRY //Worth it to try again at least once.
 		else
-			mode_to_try = "extended"
+			mode_to_try = "combine"
 
 	if(!mode_to_try)
 		return
@@ -344,7 +344,7 @@ Helpers
 	if(captainless)
 		for(var/mob/M in GLOB.player_list)
 			if(!istype(M,/mob/new_player))
-				to_chat(M, "Captainship not forced on anyone.")
+				to_chat(M, "The year is 2312.")
 
 /datum/controller/subsystem/ticker/proc/attempt_late_antag_spawn(var/list/antag_choices)
 	var/datum/antagonist/antag = antag_choices[1]

@@ -45,7 +45,7 @@
 
 /obj/machinery/vending/sovietsoda/breen // too lazy
 	name = "Dr. Breen's Private Reserve"
-	desc = "I wonder who this Breen is..."
+	desc = "I wonder who this Dr. Breen is..."
 	icon = 'icons/obj/32x64.dmi'
 	icon_state = "breen_vend"
 	products = list(/obj/item/reagent_containers/food/drinks/cans/breen = 50)
@@ -160,7 +160,7 @@
 
 /obj/structure/rustcar
 	name = "rusted derelict"
-	desc = "A rusted metal chassis of some pre-war machine. What could it be?"
+	desc = "A metal chassis, corroded and forgotten."
 	icon = './icons/medium_vehicles.dmi'
 	icon_state = "derelict"
 	bound_width = 64

@@ -1,4 +1,3 @@
-
 /obj/item/gun/projectile/pistol
 	load_method = MAGAZINE
 	caliber = CALIBER_PISTOL
@@ -26,7 +25,7 @@
 
 /obj/item/gun/projectile/pistol/military
 	name = "military pistol"
-	desc = "The Hephaestus Industries P20 - a mass produced kinetic sidearm in widespread service with the SCGDF."
+	desc = "The Hephaestus Industries P20 - a mass produced kinetic sidearm in widespread service."
 	magazine_type = /obj/item/ammo_magazine/pistol/double
 	allowed_magazines = /obj/item/ammo_magazine/pistol/double
 	icon = 'icons/obj/guns/military_pistol.dmi'
@@ -46,6 +45,7 @@
 	fire_sound = 'sound/weapons/gunshot/us13/pistol_fire.ogg'
 	magazine_type = /obj/item/ammo_magazine/pistol/double/usp
 	allowed_magazines = /obj/item/ammo_magazine/pistol/double/usp
+	fire_delay = 2
 
 /obj/item/ammo_magazine/pistol/double/usp
 	name = "USP magazine"
@@ -58,7 +58,7 @@
 		icon_state = "[initial(icon_state)]-e"
 
 /obj/item/gun/projectile/pistol/military/alt
-	desc = "The HelTek Optimus, best known as the standard-issue sidearm for the ICCG Navy."
+	desc = "The HelTek Optimus, best known as the standard-issue sidearm."
 	icon = 'icons/obj/guns/military_pistol2.dmi'
 	icon_state = "military-alt"
 	safety_icon = "safety"
@@ -67,7 +67,7 @@
 
 /obj/item/gun/projectile/pistol/sec
 	name = "pistol"
-	desc = "The NT Mk58 is a cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Found pretty much everywhere humans are."
+	desc = "The NT Mk58 is a cheap, ubiquitous sidearm, produced by rebel subsidiaries. Found pretty much everywhere humans are."
 	icon = 'icons/obj/guns/pistol.dmi'
 	icon_state = "secguncomp"
 	safety_icon = "safety"
@@ -81,7 +81,7 @@
 
 /obj/item/gun/projectile/pistol/magnum_pistol
 	name = "magnum pistol"
-	desc = "The HelTek Magnus, a robust Terran handgun that uses high-caliber ammo."
+	desc = "The magnum pistol, a robust rebel handgun that uses high-caliber ammo."
 	icon = 'icons/obj/guns/magnum_pistol.dmi'
 	icon_state = "magnum"
 	item_state = "magnum"

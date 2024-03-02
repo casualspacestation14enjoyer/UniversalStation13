@@ -10,7 +10,7 @@
 	icon_state = "cpO"
 
 /obj/item/clothing/mask/cpO
-	name = "civil protection officer gasmask"
+	name = "civil protection officer gas-mask"
 	desc = "Standard issue, hides your face and protects it from bullets, the whole thing!"
 	icon_state = "cpO_helm"
 	unique_death = 'sound/voice/sec_death.ogg'
@@ -29,7 +29,7 @@
 	icon_state = "cpE"
 
 /obj/item/clothing/mask/cpE
-	name = "civil protection elite gasmask"
+	name = "civil protection elite gas-mask"
 	desc = "Standard issue, hides your face and protects it from bullets, the whole thing!"
 	icon_state = "cpE_helm"
 	unique_death = 'sound/voice/important_sec_death.ogg'
@@ -48,7 +48,7 @@
 	icon_state = "cpRL"
 
 /obj/item/clothing/mask/cpRL
-	name = "civil protection rank leader gasmask"
+	name = "civil protection rank leader gas-mask"
 	desc = "Standard issue, hides your face and protects it from bullets, the whole thing!"
 	icon_state = "cpRL_helm"
 	unique_death = 'sound/voice/very_high_sec_death.ogg'
@@ -74,7 +74,7 @@
 
 /obj/item/clothing/mask/owE
 	name = "overwatch elite gasmask"
-	desc = "Anticitizen One detected, bearing 12 degrees."
+	desc = "Anti-Citizen detected, bearing 12 degrees."
 	icon_state = "owE_helm"
 	unique_death = 'sound/voice/elite_death.ogg'
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|BLOCKHAIR

@@ -129,9 +129,9 @@ var/list/gamemode_cache = list()
 
 	//Used for modifying movement speed for mobs.
 	//Unversal modifiers
-	var/run_delay = 4
-	var/walk_delay = 6
-	var/creep_delay = 9
+	var/run_delay = 3.5
+	var/walk_delay = 4.5
+	var/creep_delay = 7
 	var/minimum_sprint_cost = 0.8
 	var/skill_sprint_cost_range = 0.8
 	var/minimum_stamina_recovery = 1

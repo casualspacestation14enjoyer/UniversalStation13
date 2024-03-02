@@ -1,12 +1,12 @@
 /obj/structure/bed/chair/bench // because we are too good for chairs
 	name = "bench"
-	desc = "For all of your sitting needs during an alien occupation."
+	desc = "For all of your sitting needs."
 	icon_state = "bench"
 	base_icon = "bench"
 	anchored = TRUE
 
 /obj/machinery/clock
-	name = "trainstation clock"
+	name = "train-station clock"
 	icon = 'icons/obj/32x64.dmi'
 	icon_state = "clock"
 	desc = "I wonder what time it is..."
@@ -67,7 +67,7 @@
 
 /obj/structure/phone_booth
 	name = "phone booth"
-	desc = "Looks like you could phone someone with this... as if!"
+	desc = "Looks like you could phone someone with this... As if!"
 	icon = 'icons/obj/furniture.dmi'
 	icon_state = "phone"
 	anchored = TRUE
@@ -123,7 +123,7 @@
 /obj/structure/street_light
 	name = "street light"
 	icon = 'icons/obj/street.dmi'
-	desc = "It is on 24/7, not even the night looks like night anymore."
+	desc = "It is on seemingly all the time."
 	icon_state = "streetlamp1"
 
 	density = TRUE
@@ -295,7 +295,7 @@
 
 /obj/machinery/couponreclaim
 	name = "coupon reclamation device"
-	desc = "i hate writing these fucking descriptions"
+	desc = "Stuff a coupon in here to get STEEL or GLASS."
 	icon = 'icons/obj/computer.dmi'
 	anchored = TRUE
 	icon_state = "coupon"
@@ -337,7 +337,7 @@
 
 /obj/structure/fakestairs
 	name = "stairs"
-	desc = "They lead to somewhere, I don't know where though."
+	desc = "They lead to somewhere, probably."
 	icon = 'icons/obj/stairs.dmi'
 	density = FALSE
 	anchored = TRUE

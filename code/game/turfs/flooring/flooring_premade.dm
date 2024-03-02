@@ -201,7 +201,7 @@
 
 /turf/simulated/floor/tiled/road
 	name = "road"
-	desc = "Many years ago, automatons called 'cars' used to travel along these roads."
+	desc = "Remnants of a time when automatons known as 'cars' once traversed these paths, now silent witnesses."
 	icon_state = "road"
 	initial_flooring = /decl/flooring/tiling/cmb_tiled/road
 

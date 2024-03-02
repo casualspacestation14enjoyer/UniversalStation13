@@ -71,6 +71,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/old/security/owE
 	mask = /obj/item/clothing/mask/owE
 	suit_store = /obj/item/gun/projectile/automatic/assault_rifle/osipr
+	backpack_contents = list(/obj/item/ammo_magazine/rifle/osipr = 4)
 
 /decl/hierarchy/outfit/job/earthadministrator
 	name = OUTFIT_JOB_NAME("Earth Administrator")

@@ -175,7 +175,7 @@
 	name = "pulse-rifle magazine"
 	icon = 'icons/obj/guns/7guns.dmi'
 	icon_state = "osiprmag"
-	ammo_type = /obj/item/ammo_magazine/rifle/osipr
+	ammo_type = /obj/item/ammo_casing/rifle/osipr
 
 /obj/item/ammo_magazine/rifle/osipr/on_update_icon()
 	. = ..()

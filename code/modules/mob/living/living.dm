@@ -922,6 +922,8 @@ default behaviour is:
 			return "<b>average</b>"
 		if(SOCIAL_CLASS_COM)
 			return "<b>above average</b>"
+		if(SOCIAL_CLASS_CC)
+			return "<b>slightly-more above average</b>"
 		if(SOCIAL_CLASS_HIGH)
 			return "<b>high</b>"
 		if(SOCIAL_CLASS_MAX)
@@ -940,6 +942,8 @@ proc/get_social_class_level_Global(social_class)
 			return "<b>average</b>"
 		if(SOCIAL_CLASS_COM)
 			return "<b>above average</b>"
+		if(SOCIAL_CLASS_CC)
+			return "<b>slightly-more above average</b>"
 		if(SOCIAL_CLASS_HIGH)
 			return "<b>high</b>"
 		if(SOCIAL_CLASS_MAX)

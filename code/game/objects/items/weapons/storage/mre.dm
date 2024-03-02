@@ -10,7 +10,7 @@ MRE Stuff
 	storage_slots = 7
 	max_w_class = ITEM_SIZE_SMALL
 	opened = FALSE
-	open_sound = 'sound/effects/rip1.ogg'
+	open_sound = 'sound/machines/buttonbeep.ogg'
 	var/main_meal = /obj/item/storage/mrebag
 	var/meal_desc = "This one is menu 1, meat pizza."
 	startswith = list(

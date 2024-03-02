@@ -70,6 +70,7 @@
 	brute_mod = 0.8
 	burn_mod =  0.7
 	sexybits_location = null
+
 	icobase =     'icons/mob/human_races/species/human/subspecies/synthetic_body.dmi'
 
 /datum/species/human/vatgrown

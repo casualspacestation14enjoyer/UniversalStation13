@@ -19,7 +19,7 @@
 
 /datum/job/cwu_overseer
 	title = "CWU Overseer"
-	social_class = SOCIAL_CLASS_MED
+	social_class = SOCIAL_CLASS_CC
 	selection_color = "#8b6229"
 	department = "Civil Workers Union"
 
@@ -200,5 +200,4 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 
 /datum/job/overwatch_elite/handle_variant_join(mob/living/carbon/human/H, alt_title)
 	if(!H) return
-	H.add_language(/datum/language/human/english)
-	return H.change_species(SPECIES_TRANNIE)
+	return H.change_species(SPECIES_TRANNIE) && H.add_language(LANGUAGE_HUMAN_ENGLISH)

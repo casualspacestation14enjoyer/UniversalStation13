@@ -186,7 +186,7 @@
 
 /obj/item/ingredient_cube
 	name = "cube of ingredients"
-	desc = "Not to be eaten. Add it to an unfinished ration packet to seal it up."
+	desc = "Not to be eaten. Add it to an unfinished ration packet to seal it up. No one is sure what it is but for some reason it adds whole packets of food, probably condensed matter?"
 	icon = 'icons/obj/food.dmi'
 	icon_state = "ingredientcube"
 
@@ -314,7 +314,7 @@
 
 /obj/machinery/deliverer
 	name = "delivery machine"
-	desc = "Used to finish ration quota."
+	desc = "Used to finish ration quota. Sends the rations off to a different factory in a different city to complete the packaging process."
 	icon = 'icons/obj/teleporter.dmi'
 	icon_state = "pad"
 	anchored = TRUE
@@ -342,3 +342,94 @@
 	density = FALSE
 	anchored = TRUE
 	layer = RUNE_LAYER
+
+/obj/machinery/ration_dispenser
+	name = "ration dispenser"
+	desc = "Just press a button and get a ration, it is that easy! Probably made like that so you don't starve to death."
+	icon_state = "ration_dispenser" // TODO: make ration dispenser dispense rations... lol
+
+// rations
+
+/obj/item/storage/mre/biotic
+	name = "biotic ration"
+	desc = "A Combine-isssued ration for biotics, essentially only for the enslaved vortigaunts."
+	icon_state = "ration_biotic"
+	meal_desc = null
+	main_meal = /obj/item/reagent_containers/food/snacks/chocolatebar/combine
+	startswith = list(
+		/obj/item/reagent_containers/food/snacks/chocolateegg/protein_combine,
+		/obj/item/reagent_containers/food/drinks/cans/breen
+	)
+
+/obj/item/storage/mre/standard
+	name = "standard ration"
+	desc = "A Combine-isssued ration for regular citizens."
+	icon_state = "ration_standard"
+	meal_desc = null
+	main_meal = /obj/item/reagent_containers/food/snacks/chocolatebar/combine/plus
+	startswith = list(
+		/obj/item/reagent_containers/food/snacks/chocolateegg/protein_combine,
+		/obj/item/reagent_containers/food/drinks/cans/breen
+	)
+
+/obj/item/storage/mre/priority
+	name = "priority ration"
+	desc = "A Combine-isssued ration for better more reputable citizens, Civil Protection and CWU members and such."
+	icon_state = "ration_priority"
+	meal_desc = null
+	main_meal = /obj/item/reagent_containers/food/snacks/chocolatebar/combine/plusplus
+	startswith = list(
+		/obj/item/reagent_containers/food/snacks/chocolateegg/protein_combine,
+		/obj/item/reagent_containers/food/drinks/cans/breen
+	)
+
+/obj/item/storage/mre/service
+	name = "service ration"
+	desc = "A Combine-isssued ration for very reputable city-dwellers, City Administrators and members of the people that keep this city running."
+	icon_state = "ration_service"
+	meal_desc = null
+	main_meal = /obj/item/reagent_containers/food/snacks/chocolatebar/combine/deluxe
+	startswith = list(
+		/obj/item/reagent_containers/food/snacks/chocolateegg/protein_combine,
+		/obj/item/reagent_containers/food/drinks/cans/breen
+	)
+
+// ration inside meals
+
+/obj/item/reagent_containers/food/snacks/chocolatebar/combine
+	name = "combine bar of unidentifiable food"
+	desc = "The wrapper is eatable. Not edible. But you're gonna eat it anyway."
+	icon_state = "combine_bar"
+	nutriment_desc = list("\a mushy mass" = 5)
+
+/obj/item/reagent_containers/food/snacks/chocolatebar/combine/plus
+	name = "combine bar of cardboard-like material"
+	desc = "The wrapper is eatable. Not edible. But you're gonna eat it anyway."
+	icon_state = "combine_bar_plus"
+	nutriment_amt = 3
+	bitesize = 1
+	nutriment_desc = list("\a mushy mass" = 5)
+
+/obj/item/reagent_containers/food/snacks/chocolatebar/combine/plusplus
+	name = "combine bar of nutrients"
+	desc = "The wrapper is edible. It dooesn't look it would taste good."
+	icon_state = "combine_bar_plusplus"
+	nutriment_amt = 4
+	bitesize = 1
+	nutriment_desc = list("\a mushy mass" = 5)
+
+/obj/item/reagent_containers/food/snacks/chocolatebar/combine/deluxe
+	name = "combine bar of food"
+	desc = "The wrapper is edible."
+	icon_state = "combine_bar_deluxe"
+	nutriment_amt = 5
+	bitesize = 1
+	nutriment_desc = list("artificial chocolate" = 5)
+
+/obj/item/reagent_containers/food/snacks/chocolateegg/protein_combine
+	name = "combine protein block"
+	desc = "The wrapper is slimy. What the fuck?"
+	icon_state = "combine_protein"
+	nutriment_amt = 2
+	bitesize = 1
+	nutriment_desc = list("protein" = 5)

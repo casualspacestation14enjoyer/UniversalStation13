@@ -370,6 +370,7 @@
 //Social Classes
 #define SOCIAL_CLASS_AC "anti-citizen"
 #define SOCIAL_CLASS_LOW "citizen"
+#define SOCIAL_CLASS_CC "civilian co-ordinator"
 #define SOCIAL_CLASS_MED "civil defender"
 #define SOCIAL_CLASS_COM "civil commander"
 #define SOCIAL_CLASS_HIGH "syntheta"

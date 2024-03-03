@@ -368,7 +368,7 @@
 #define AURA_TYPE_LIFE   "Life"
 
 //Social Classes
-#define SOCIAL_CLASS_AC "anti-citizen"
+#define SOCIAL_CLASS_AC "biotic"
 #define SOCIAL_CLASS_LOW "citizen"
 #define SOCIAL_CLASS_CC "civilian co-ordinator"
 #define SOCIAL_CLASS_MED "civil defender"

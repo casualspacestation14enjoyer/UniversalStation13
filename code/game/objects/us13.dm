@@ -348,6 +348,28 @@
 	desc = "Just press a button and get a ration, it is that easy! Probably made like that so you don't starve to death."
 	icon_state = "ration_dispenser" // TODO: make ration dispenser dispense rations... lol
 
+/obj/machinery/ration_dispenser/attack_hand(mob/user)
+	. = ..()
+	var/mob/living/carbon/human/H = user
+	if(H.social_class == SOCIAL_CLASS_AC) return
+	src.visible_message(SPAN_NOTICE("\The [src] begins dispensing a ration for [H]."))
+	if(do_after(H, 5 SECONDS, src))
+		var/to_dispense
+		switch(H.social_class)
+			if(SOCIAL_CLASS_AC)
+				to_dispense = /obj/item/storage/mre/biotic
+			if(SOCIAL_CLASS_LOW)
+				to_dispense = /obj/item/storage/mre/standard
+			if(SOCIAL_CLASS_MED, SOCIAL_CLASS_COM)
+				to_dispense = /obj/item/storage/mre/priority
+			if(SOCIAL_CLASS_MAX, SOCIAL_CLASS_HIGH)
+				to_dispense = /obj/item/storage/mre/service
+		if(to_dispense)
+			var/obj/item/storage/mre/ration = new to_dispense
+			H.put_in_hands(ration)
+			flick("[icon_state]-w",src)
+			src.visible_message(SPAN_NOTICE("\The [src] dispenses \a [ration]."))
+
 // rations
 
 /obj/item/storage/mre/biotic
@@ -400,7 +422,7 @@
 	name = "combine bar of unidentifiable food"
 	desc = "The wrapper is eatable. Not edible. But you're gonna eat it anyway."
 	icon_state = "combine_bar"
-	nutriment_desc = list("\a mushy mass" = 5)
+	nutriment_desc = list("slop" = 5)
 
 /obj/item/reagent_containers/food/snacks/chocolatebar/combine/plus
 	name = "combine bar of cardboard-like material"
@@ -408,7 +430,7 @@
 	icon_state = "combine_bar_plus"
 	nutriment_amt = 3
 	bitesize = 1
-	nutriment_desc = list("\a mushy mass" = 5)
+	nutriment_desc = list("slop" = 5)
 
 /obj/item/reagent_containers/food/snacks/chocolatebar/combine/plusplus
 	name = "combine bar of nutrients"
@@ -416,7 +438,7 @@
 	icon_state = "combine_bar_plusplus"
 	nutriment_amt = 4
 	bitesize = 1
-	nutriment_desc = list("\a mushy mass" = 5)
+	nutriment_desc = list("slop" = 5)
 
 /obj/item/reagent_containers/food/snacks/chocolatebar/combine/deluxe
 	name = "combine bar of food"

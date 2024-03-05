@@ -346,7 +346,7 @@
 /obj/machinery/ration_dispenser
 	name = "ration dispenser"
 	desc = "Just press a button and get a ration, it is that easy! Probably made like that so you don't starve to death."
-	icon_state = "ration_dispenser" // TODO: make ration dispenser dispense rations... lol
+	icon_state = "ration_dispenser"
 
 /obj/machinery/ration_dispenser/attack_hand(mob/user)
 	. = ..()

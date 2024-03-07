@@ -2,14 +2,11 @@
 	title = "CTI Pilot"
 	total_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/verne/pilot
-	supervisors = "the CTI Professor in Command of the Verne"
-	info = "You are an employee on the SRV Verne, as it carries the students of the prestigious Ceti Technical Institute conducting research \
-	in the depths of space. Your job on the Survey team is simple; pilot the SRV Verne and the SRV Venerable Catfish; protect the students; and assist in their studies. Your Survey team has awoken \
- 	to find the Verne running at low capacity, under-staffed, with much of the automated life support systems doing the heavy lifting."
+	supervisors = "You have no supervisors."
+	info = "You will be told, hopefully."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN)
 	required_language = LANGUAGE_COMMON
 	min_skill = list(
-		SKILL_EVA     = SKILL_BASIC,
 		SKILL_WEAPONS = SKILL_TRAINED,
 		SKILL_PILOT   = SKILL_TRAINED,
 	)
@@ -24,15 +21,12 @@
 	title = "CTI Engineer"
 	total_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/verne/engineer
-	supervisors = "the CTI Professor in Command of the Verne"
-	info = "You are an employee on the SRV Verne, as it carries the students of the prestigious Ceti Technical Institute conducting research \
- 	in the depths of space. Your job on the Survey team is simple: Handle engineering work on the SRV Verne and the SRV Venerable Catfish, protect the students, and assist in their studies. Your Survey team has awoken \
-	to find the Verne running at low capacity, under-staffed, with much of the automated life support systems doing the heavy lifting."
+	supervisors = "You have no supervisors."
+	info = "You will be told, hopefully."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN)
 	required_language = LANGUAGE_COMMON
 	min_skill = list(
 		SKILL_COMPUTER     = SKILL_BASIC,
-		SKILL_EVA          = SKILL_BASIC,
 		SKILL_CONSTRUCTION = SKILL_TRAINED,
 		SKILL_ELECTRICAL   = SKILL_BASIC,
 		SKILL_ATMOS        = SKILL_BASIC,
@@ -48,17 +42,14 @@
 	skill_points = 20//skills copied from torch eng
 
 /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher
-	title = "CTI Undergraduate Xenoscience Researcher"
-	supervisors = "the CTI Professor in Command of the Verne"
+	title = "CTI Undergraduate science Researcher"
+	supervisors = "You have no supervisors."
 	total_positions = 2
 	outfit_type = /decl/hierarchy/outfit/job/verne/researcher
-	info = "You are an undergraduate xenoscience researcher on the SRV Verne, alongside the rest of your class of the prestigious Ceti Technical Institute conducting research \
-	in the depths of space. A survey team will be accompanying you, on hand to assist your studies on the exoplanets in this system. Your team has awoken \
-	to find the Verne running at low capacity, under-staffed, with much of the automated life support systems doing the heavy lifting."
+	info = "You are fleeing, and that's all you know."
 	whitelisted_species = list(SPECIES_HUMAN,SPECIES_SPACER,SPECIES_GRAVWORLDER,SPECIES_VATGROWN,SPECIES_TRITONIAN)
 	required_language = LANGUAGE_COMMON
 	min_skill = list(
-		SKILL_BUREAUCRACY = SKILL_BASIC,
 		SKILL_COMPUTER    = SKILL_BASIC,
 		SKILL_DEVICES     = SKILL_BASIC,
 		SKILL_SCIENCE     = SKILL_TRAINED,

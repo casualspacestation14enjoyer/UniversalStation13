@@ -3,7 +3,6 @@
 		"Service" = TRUE
 	)
 	skills = list(
-		SKILL_BUREAUCRACY         = SKILL_MASTER,
 		SKILL_FINANCE             = SKILL_MASTER,
 		SKILL_COMPUTER            = SKILL_EXPERIENCED,
 		SKILL_SCIENCE             = SKILL_EXPERIENCED,
@@ -40,7 +39,6 @@
 	)
 	emag = /obj/item/reagent_containers/food/drinks/bottle/small/beer
 	skills = list(
-		SKILL_BUREAUCRACY         = SKILL_MASTER,
 		SKILL_COMPUTER            = SKILL_EXPERIENCED,
 		SKILL_COOKING             = SKILL_MASTER,
 		SKILL_BOTANY              = SKILL_MASTER,

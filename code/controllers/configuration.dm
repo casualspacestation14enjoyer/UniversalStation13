@@ -134,8 +134,8 @@ var/list/gamemode_cache = list()
 	var/creep_delay = 7
 	var/minimum_sprint_cost = 0.8
 	var/skill_sprint_cost_range = 0.8
-	var/minimum_stamina_recovery = 1
-	var/maximum_stamina_recovery = 3
+	var/minimum_stamina_recovery = 2.2
+	var/maximum_stamina_recovery = 5
 	var/glide_size_delay = 1
 
 	//Mob specific modifiers. NOTE: These will affect different mob types in different ways
@@ -172,25 +172,25 @@ var/list/gamemode_cache = list()
 	var/static/list/event_first_run = list(
 		EVENT_LEVEL_MUNDANE = null,
 		EVENT_LEVEL_MODERATE = null,
-		EVENT_LEVEL_MAJOR = list("lower" = 80 MINUTES, "upper" = 100 MINUTES),
-		EVENT_LEVEL_CATASTROPHE = list("lower" = 150 MINUTES, "upper" = 200 MINUTES),
-		EVENT_LEVEL_EXO = list("lower" = 50 MINUTES, "upper" = 80 MINUTES),
+		EVENT_LEVEL_MAJOR = null,
+		EVENT_LEVEL_CATASTROPHE = null,
+		EVENT_LEVEL_EXO = null,
 		)
 	/// The lowest delay until next event
 	var/static/list/event_delay_lower = list(
-		EVENT_LEVEL_MUNDANE = 10 MINUTES,
-		EVENT_LEVEL_MODERATE = 30 MINUTES,
-		EVENT_LEVEL_MAJOR = 50 MINUTES,
-		EVENT_LEVEL_CATASTROPHE = 100 MINUTES,
-		EVENT_LEVEL_EXO = 40 MINUTES,
+		EVENT_LEVEL_MUNDANE = null,
+		EVENT_LEVEL_MODERATE = null,
+		EVENT_LEVEL_MAJOR = null,
+		EVENT_LEVEL_CATASTROPHE = null,
+		EVENT_LEVEL_EXO = null,
 		)
 	/// The upper delay until next event
 	var/static/list/event_delay_upper = list(
-		EVENT_LEVEL_MUNDANE = 15 MINUTES,
-		EVENT_LEVEL_MODERATE = 45 MINUTES,
-		EVENT_LEVEL_MAJOR = 70 MINUTES,
-		EVENT_LEVEL_CATASTROPHE = 120 MINUTES,
-		EVENT_LEVEL_EXO = 60 MINUTES,
+		EVENT_LEVEL_MUNDANE = null,
+		EVENT_LEVEL_MODERATE = null,
+		EVENT_LEVEL_MAJOR = null,
+		EVENT_LEVEL_CATASTROPHE = null,
+		EVENT_LEVEL_EXO = null,
 		)
 
 	var/abandon_allowed = 1

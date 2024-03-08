@@ -58,8 +58,18 @@
 	msg += "<br>"
 
 	if(social_class)
-		msg += "They are a <span class='danger'>[social_class]</span>, a <span class='danger'>[src.get_social_class_level()]</span> social class."
+		var/class_level = src.get_social_class_level()
+		var/class_suffix = ""
+
+		if(social_class == SOCIAL_CLASS_COM || social_class == SOCIAL_CLASS_MED)
+			class_suffix = "n"
+		if(social_class == SOCIAL_CLASS_AC)
+			msg += "They are an <span class='danger'>anti-citizen</span>, a" + class_suffix + " <span class='danger'>" + class_level + "</span> social class.<br>"
+		else
+			msg += "They are a <span class='danger'>[social_class]</span>, a" + class_suffix + " <span class='danger'>" + class_level + "</span> social class.<br>"
+			class_suffix = ""
 		msg += "<br>"
+
 
 	//uniform
 	if(w_uniform && !skipjumpsuit)

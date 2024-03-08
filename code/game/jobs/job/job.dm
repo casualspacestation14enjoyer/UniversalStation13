@@ -109,7 +109,15 @@
 
 	if(social_class)
 		H.social_class = social_class
-		to_chat(H, "Your social class is <span class='danger'>[H.social_class]</span>, a <span class='danger'>[H.get_social_class_level()]</span> class.")
+		var/class_suffix = ""
+
+		if(social_class == SOCIAL_CLASS_COM || social_class == SOCIAL_CLASS_MED)
+			class_suffix = "n"
+		if(social_class == SOCIAL_CLASS_AC)
+			to_chat(H, "You are an <span class='danger'>anti-citizen</span>, a" + class_suffix + " <span class='danger'>[H.get_social_class_level()]</span> class.")
+		else
+			to_chat(H, "You are a <span class='danger'>[H.social_class]</span>, a" + class_suffix + " <span class='danger'>[H.get_social_class_level()]</span> class.")
+			class_suffix = ""
 
 /datum/job/proc/get_outfit(var/mob/living/carbon/human/H, var/alt_title, var/datum/mil_branch/branch, var/datum/mil_rank/grade)
 	if(alt_title && alt_titles)

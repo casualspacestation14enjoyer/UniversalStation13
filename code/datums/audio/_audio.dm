@@ -22,11 +22,12 @@
 /decl/audio/VV_static()
 	return ..() + vars
 
+/*
 /decl/audio/proc/get_info(with_meta = TRUE)
 	. = SPAN_GOOD("[title][!author?"":" by [author]"][!collection?"":" ([collection])"]")
 	if (with_meta)
 		. = "[.][!url?"":"\[<a href='[url]'>link</a>\]"]\[<a href='[license.url]'>license</a>\]"
-
+*/
 
 /decl/audio/proc/get_sound(channel)
 	var/sound/S = sound(source, FALSE, FALSE, channel, volume || 100)

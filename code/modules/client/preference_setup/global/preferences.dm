@@ -99,7 +99,7 @@ var/list/_client_preferences_by_type
 	if(new_value == GLOB.PREF_YES)
 		if(isnewplayer(preference_mob))
 			sound_to(preference_mob, GLOB.using_map.lobby_track.get_sound())
-			to_chat(preference_mob, GLOB.using_map.lobby_track.get_info())
+			//to_chat(preference_mob, GLOB.using_map.lobby_track.get_info())
 	else
 		sound_to(preference_mob, sound(null, repeat = 0, wait = 0, volume = 85, channel = GLOB.lobby_sound_channel))
 

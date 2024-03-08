@@ -478,7 +478,7 @@ function setTheme(theme) {
 	}
 
 	setCookie('theme', theme, 365);
-	internalOutput('<span class="internal boldnshit">Set theme: '+theme+'</span>', 'internal');
+	//internalOutput('<span class="internal boldnshit">Set theme: '+theme+'</span>', 'internal');
 }
 
 function handleClientData(ckey, ip, compid) {

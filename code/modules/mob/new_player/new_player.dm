@@ -498,4 +498,4 @@ mob/new_player/MayRespawn()
 		return
 	var/decl/audio/track/track = GLOB.using_map.get_lobby_track(GLOB.using_map.lobby_track.type)
 	sound_to(src, track.get_sound())
-	to_chat(src, track.get_info())
+	//to_chat(src, track.get_info())

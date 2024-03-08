@@ -228,5 +228,5 @@
 	return d.get_log_info_line()
 
 /proc/report_progress(var/progress_message)
-	admin_notice("<span class='boldannounce'>[progress_message]</span>", R_DEBUG)
-	to_world_log(progress_message)
+	//admin_notice("<span class='boldannounce'>[progress_message]</span>", R_DEBUG)
+	//to_world_log(progress_message)

@@ -4,25 +4,19 @@
 /mob/living/verb/set_default_language(language as null|anything in languages)
 	set name = "Set Default Language"
 	set category = "IC"
+	default_language = language
 
 	if (only_species_language && language != all_languages[src.species_language])
-		to_chat(src, "<span class='notice'>You can only speak your species language, [src.species_language].</span>")
 		return 0
 
 	if(language == all_languages[src.species_language])
-		to_chat(src, "<span class='notice'>You will now speak your standard default language, [language], if you do not specify a language when speaking.</span>")
-	else if (language)
+		return
 
-		if(language && !can_speak(language))
-			to_chat(src, "<span class='notice'>You are unable to speak that language.</span>")
-			return
+	if(language && !can_speak(language))
+		return
 
-		to_chat(src, "<span class='notice'>You will now speak [language] if you do not specify a language when speaking.</span>")
 	else
-
-		to_chat(src, "<span class='notice'>You will now speak whatever your standard default language is if you do not specify one when speaking.</span>")
-
-	default_language = language
+		return
 
 // Silicons can't neccessarily speak everything in their languages list
 /mob/living/silicon/set_default_language(language as null|anything in speech_synthesizer_langs)

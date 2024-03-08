@@ -37,8 +37,8 @@ SUBSYSTEM_DEF(ticker)
 	var/news_report
 
 /datum/controller/subsystem/ticker/Initialize()
-	to_world("<span class='info'><B>Welcome to the pre-game lobby!</B></span>")
-	to_world("Please, setup your character and select ready. Game will start in [round(pregame_timeleft/10)] seconds")
+	//to_world("<span class='info'><B>Welcome to the pre-game lobby!</B></span>")
+	//to_world("Please, setup your character and select ready. Game will start in [round(pregame_timeleft/10)] seconds")
 	return ..()
 
 /datum/controller/subsystem/ticker/fire(resumed = 0)

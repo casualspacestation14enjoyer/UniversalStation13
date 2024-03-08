@@ -862,8 +862,8 @@ var/global/floorIsLava = 0
 
 /datum/admins/proc/toggletraitorscaling()
 	set category = "Server"
-	set desc="Toggle traitor scaling"
-	set name="Toggle Traitor Scaling"
+	set desc = "Toggle traitor scaling"
+	set name = "Toggle Traitor Scaling"
 	config.traitor_scaling = !config.traitor_scaling
 	log_admin("[key_name(usr)] toggled Traitor Scaling to [config.traitor_scaling].")
 	message_admins("[key_name_admin(usr)] toggled Traitor Scaling [config.traitor_scaling ? "on" : "off"].", 1)
@@ -871,10 +871,10 @@ var/global/floorIsLava = 0
 
 /datum/admins/proc/startnow()
 	set category = "Server"
-	set desc="Start the round RIGHT NOW"
-	set name="Start Now"
+	set desc = "Start the round RIGHT NOW"
+	set name = "Start Now"
 	if(GAME_STATE < RUNLEVEL_LOBBY)
-		to_chat(usr, FONT_LARGE(SPAN_DANGER("Unable to start the game as it is not yet set up.")))
+		//to_chat(usr, FONT_LARGE(SPAN_DANGER("Unable to start the game as it is not yet set up.")))
 		SSticker.start_ASAP = !SSticker.start_ASAP
 		if(SSticker.start_ASAP)
 			to_chat(usr, FONT_LARGE(SPAN_WARNING("The game will begin as soon as possible.")))

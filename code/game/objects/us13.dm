@@ -360,7 +360,7 @@
 				to_dispense = /obj/item/storage/mre/biotic
 			if(SOCIAL_CLASS_LOW)
 				to_dispense = /obj/item/storage/mre/standard
-			if(SOCIAL_CLASS_MED, SOCIAL_CLASS_COM)
+			if(SOCIAL_CLASS_MED, SOCIAL_CLASS_COM, SOCIAL_CLASS_CC)
 				to_dispense = /obj/item/storage/mre/priority
 			if(SOCIAL_CLASS_MAX, SOCIAL_CLASS_HIGH)
 				to_dispense = /obj/item/storage/mre/service

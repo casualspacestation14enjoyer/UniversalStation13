@@ -37,12 +37,12 @@
 		var/savefile/F = new(MENTOR_MEMO_FILE)
 		if(F)
 			if(!F.dir.len)
-				to_chat(src, SPAN_NOTICE("No memos found."))
+				//to_chat(src, SPAN_NOTICE("No memos found."))
 				return
 			for(var/ckey in F.dir)
 				to_chat(src, "<center><span class='motd'><b>Mentor Memo</b><i> by [F[ckey]]</i></span></center>")
 		else
-			to_chat(src, SPAN_NOTICE("No memos found."))
+			//to_chat(src, SPAN_NOTICE("No memos found."))
 
 /client/proc/mentor_memo_delete()
 	var/savefile/F = new(MENTOR_MEMO_FILE)

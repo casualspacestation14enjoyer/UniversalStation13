@@ -216,7 +216,7 @@
 	overlay_status_display = "status_display_green"
 	alert_border = "alert_border_green"
 
-	down_description = "All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced."
+	down_description = "There are currently no threats."
 
 /decl/security_level/default/code_blue
 	name = "code blue"
@@ -234,8 +234,8 @@
 	overlay_status_display = "status_display_blue"
 	alert_border = "alert_border_blue"
 
-	up_description = "The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted."
-	down_description = "The immediate threat has passed. Security may no longer have weapons drawn at all times, but may continue to have them visible. Random searches are still allowed."
+	up_description = "There are reports of threats."
+	down_description = "The immediate threat has passed."
 
 /decl/security_level/default/code_red
 	name = "code red"
@@ -253,8 +253,8 @@
 
 	psionic_control_level = PSI_IMPLANT_DISABLED
 
-	up_description = "There is an immediate serious threat to the station. Security may have weapons unholstered at all times. Random searches are allowed and advised."
-	down_description = "The self-destruct mechanism has been deactivated, there is still however an immediate serious threat to the station. Security may have weapons unholstered at all times, random searches are allowed and advised."
+	up_description = "There is an immediate serious threat."
+	down_description = "The immediate serious threat has passed."
 
 /decl/security_level/default/code_delta
 	name = "code delta"

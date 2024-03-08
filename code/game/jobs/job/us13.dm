@@ -34,7 +34,6 @@
 	available_by_default = TRUE
 
 	min_skill = list(
-		SKILL_BUREAUCRACY = SKILL_MASTER,
 		SKILL_COMBAT = SKILL_BASIC,
 		SKILL_WEAPONS = SKILL_BASIC)
 
@@ -87,7 +86,6 @@
 	require_whitelist = "civilprotection"
 
 	min_skill = list( // shouldnt be out in the field much
-		SKILL_BUREAUCRACY = SKILL_EXPERIENCED,
 		SKILL_COMBAT = SKILL_EXPERIENCED,
 		SKILL_WEAPONS = SKILL_EXPERIENCED,
 		SKILL_FORENSICS = SKILL_EXPERIENCED)
@@ -177,7 +175,6 @@ var/datum/announcement/minor/ca_announcement = new(do_newscast = 1)
 	spawn_positions = 2
 
 	min_skill = list( //killing machine
-		SKILL_BUREAUCRACY = SKILL_UNTRAINED,
 		SKILL_COMBAT = SKILL_MASTER,
 		SKILL_WEAPONS = SKILL_MASTER,
 		SKILL_FORENSICS = SKILL_UNTRAINED)

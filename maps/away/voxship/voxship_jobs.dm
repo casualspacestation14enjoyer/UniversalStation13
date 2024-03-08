@@ -9,10 +9,7 @@
 	blacklisted_species = null
 	is_semi_antagonist = TRUE
 	max_skill = list(
-		SKILL_BUREAUCRACY = SKILL_MAX,
 		SKILL_FINANCE = SKILL_MAX,
-		SKILL_EVA = SKILL_MAX,
-		SKILL_MECH = SKILL_MAX,
 		SKILL_PILOT = SKILL_MAX,
 		SKILL_HAULING = SKILL_MAX,
 		SKILL_COMPUTER = SKILL_MAX,
@@ -40,7 +37,6 @@
 	whitelisted_species = list(SPECIES_VOX)
 	min_skill = list(
 		SKILL_HAULING = SKILL_BASIC,
-		SKILL_EVA = SKILL_EXPERIENCED,
 		SKILL_MEDICAL = SKILL_EXPERIENCED,
 		SKILL_ANATOMY = SKILL_EXPERIENCED,
 		SKILL_CHEMISTRY = SKILL_BASIC,
@@ -48,10 +44,7 @@
 	)
 
 	max_skill = list(
-		SKILL_BUREAUCRACY = SKILL_MAX,
 		SKILL_FINANCE = SKILL_MAX,
-		SKILL_EVA = SKILL_MAX,
-		SKILL_MECH = SKILL_MAX,
 		SKILL_PILOT = SKILL_MAX,
 		SKILL_HAULING = SKILL_MAX,
 		SKILL_COMPUTER = SKILL_MAX,
@@ -80,7 +73,6 @@
 	min_skill = list(
 		SKILL_HAULING = SKILL_BASIC,
 		SKILL_COMPUTER = SKILL_BASIC,
-		SKILL_EVA = SKILL_EXPERIENCED,
 		SKILL_CONSTRUCTION = SKILL_TRAINED,
 		SKILL_ELECTRICAL = SKILL_BASIC,
 		SKILL_ATMOS = SKILL_BASIC,
@@ -88,10 +80,7 @@
 	)
 
 	max_skill = list(
-		SKILL_BUREAUCRACY = SKILL_MAX,
 		SKILL_FINANCE = SKILL_MAX,
-		SKILL_EVA = SKILL_MAX,
-		SKILL_MECH = SKILL_MAX,
 		SKILL_PILOT = SKILL_MAX,
 		SKILL_HAULING = SKILL_MAX,
 		SKILL_COMPUTER = SKILL_MAX,
@@ -116,11 +105,10 @@
 	title = "Quill"
 	total_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/voxship/crew
-	supervisors = "apex and the arkship"
-	info = "You're in charge. You fly the ship, and dictate what the crew does. Do not disappoint the Apex."
+	supervisors = "None."
+	info = "You're in charge."
 	min_skill = list(
 		SKILL_HAULING = SKILL_BASIC,
-		SKILL_EVA = SKILL_EXPERIENCED,
 		SKILL_SCIENCE = SKILL_TRAINED,
 		SKILL_PILOT = SKILL_TRAINED,
 		SKILL_COMBAT = SKILL_TRAINED,
@@ -128,10 +116,7 @@
 	)
 
 	max_skill = list(
-		SKILL_BUREAUCRACY = SKILL_MAX,
 		SKILL_FINANCE = SKILL_MAX,
-		SKILL_EVA = SKILL_MAX,
-		SKILL_MECH = SKILL_MAX,
 		SKILL_PILOT = SKILL_MAX,
 		SKILL_HAULING = SKILL_MAX,
 		SKILL_COMPUTER = SKILL_MAX,

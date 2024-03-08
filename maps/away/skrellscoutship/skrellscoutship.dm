@@ -70,8 +70,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/skrellscoutship
 	info = "Your vessel is scouting through unknown space, working to map out any potential dangers, as well as potential allies."
 	is_semi_antagonist = TRUE
-	min_skill = list(SKILL_EVA = SKILL_TRAINED,
-					SKILL_PILOT = SKILL_TRAINED,
+	min_skill = list(SKILL_PILOT = SKILL_TRAINED,
 					SKILL_HAULING = SKILL_TRAINED,
 					SKILL_COMBAT = SKILL_TRAINED,
 					SKILL_WEAPONS = SKILL_TRAINED,
@@ -90,8 +89,7 @@
 	allowed_ranks = list(/datum/mil_rank/skrell_fleet)
 	skill_points = 30
 	is_semi_antagonist = TRUE
-	min_skill = list(SKILL_EVA = SKILL_TRAINED,
-					SKILL_HAULING = SKILL_TRAINED,
+	min_skill = list(SKILL_HAULING = SKILL_TRAINED,
 					SKILL_COMBAT = SKILL_TRAINED,
 					SKILL_WEAPONS = SKILL_TRAINED,
 					SKILL_MEDICAL = SKILL_BASIC)

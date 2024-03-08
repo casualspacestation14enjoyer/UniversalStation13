@@ -115,7 +115,6 @@
 	loadout_allowed = FALSE
 	is_semi_antagonist = TRUE
 	min_skill = list(
-		SKILL_EVA = SKILL_TRAINED,
 		SKILL_PILOT = SKILL_TRAINED,
 		SKILL_HAULING = SKILL_TRAINED,
 		SKILL_COMBAT = SKILL_TRAINED,
@@ -182,7 +181,6 @@
 	outfit_type = /decl/hierarchy/outfit/job/ascent/tech
 	requires_supervisor = "Ascent Gyne"
 	min_skill = list(
-		SKILL_EVA = SKILL_TRAINED,
 		SKILL_HAULING = SKILL_TRAINED,
 		SKILL_COMBAT = SKILL_TRAINED,
 		SKILL_WEAPONS = SKILL_TRAINED,
@@ -213,8 +211,6 @@
 	outfit_type = /decl/hierarchy/outfit/job/ascent/queen
 	requires_supervisor = "Ascent Gyne"
 	min_skill = list(
-		SKILL_BUREAUCRACY = SKILL_TRAINED,
-		SKILL_EVA = SKILL_TRAINED,
 		SKILL_PILOT = SKILL_TRAINED,
 		SKILL_HAULING = SKILL_TRAINED,
 		SKILL_SCIENCE = SKILL_TRAINED,
@@ -234,7 +230,6 @@
 	outfit_type = /decl/hierarchy/outfit/job/ascent/worker
 	requires_supervisor = "Monarch Queen"
 	min_skill = list(
-		SKILL_EVA = SKILL_TRAINED,
 		SKILL_HAULING = SKILL_TRAINED,
 		SKILL_CONSTRUCTION = SKILL_TRAINED,
 		SKILL_ELECTRICAL = SKILL_BASIC,

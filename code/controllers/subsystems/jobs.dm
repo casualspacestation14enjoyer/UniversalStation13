@@ -521,6 +521,7 @@ SUBSYSTEM_DEF(jobs)
 			W.buckled_mob = H
 			W.add_fingerprint(H)
 
+/*
 	to_chat(H, "<font size = 3><B>You are [job.total_positions == 1 ? "the" : "a"] [alt_title ? alt_title : rank].</B></font>")
 
 	if(job.supervisors)
@@ -528,8 +529,10 @@ SUBSYSTEM_DEF(jobs)
 
 	to_chat(H, "<b>To speak on your department's radio channel use :h. For the use of other channels, examine your headset.</b>")
 
+
 	if(job.req_admin_notify)
 		to_chat(H, "<b>You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via adminhelp.</b>")
+*/
 
 	//Gives glasses to the vision impaired
 	if(H.disabilities & NEARSIGHTED)

@@ -43,7 +43,7 @@ var/list/gamemode_cache = list()
 	var/objectives_disabled = 0 			//if objectives are disabled or not
 	var/protect_roles_from_antagonist = 0// If security and such can be traitor/cult/other
 	var/continous_rounds = 0			// Gamemodes which end instantly will instead keep on going until the round ends by escape shuttle or nuke.
-	var/fps = 20
+	var/fps = 100
 	var/tick_limit_mc_init = TICK_LIMIT_MC_INIT_DEFAULT	//SSinitialization throttling
 	var/list/resource_urls = null
 	var/antag_hud_allowed = 0			// Ghosts can turn on Antagovision to see a HUD of who is the bad guys this round.
@@ -91,9 +91,9 @@ var/list/gamemode_cache = list()
 	var/banappeals
 	var/wikiurl
 	var/forumurl
-	var/discordurl
-	var/githuburl
-	var/issuereporturl
+	var/discordurl = "https://discord.gg/NG4fcsF37J"
+	var/githuburl = "https://github.com/casualspacestation14enjoyer/UniversalStation13"
+	var/issuereporturl = "https://github.com/casualspacestation14enjoyer/UniversalStation13/issues"
 
 	var/list/chat_markup
 

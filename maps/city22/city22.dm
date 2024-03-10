@@ -3,6 +3,8 @@
 	#include "city22_define.dm"
 
 	#include "city22.dmm"
+	#include "z1_admin.dmm"
+	#include "z2_transit.dmm"
 
 	#define using_map_DATUM /datum/map/city22
 

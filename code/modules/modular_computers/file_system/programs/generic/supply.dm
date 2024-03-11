@@ -67,8 +67,9 @@
 	var/current_log_page = 1
 	var/log_page_max
 
-/datum/computer_file/program/supply/OnStoreFile(obj/item/stock_parts/computer/hard_drive/HD)
+/datum/computer_file/program/supply/New()
 	. = ..()
+	var/obj/item/stock_parts/computer/hard_drive/HD = src.holder
 	SSticker.OnRoundstart(CALLBACK(src, .proc/OnRoundStart, HD))
 
 /datum/computer_file/program/supply/proc/OnRoundStart(obj/item/stock_parts/computer/hard_drive/HD)

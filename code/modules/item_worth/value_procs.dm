@@ -87,12 +87,6 @@
 	if(damage)
 		. -= round(. * (damage / max_damage))
 
-/obj/item/spellbook/Value(base)
-	. = ..()
-	. += length(allowed_spells) * 1000
-	if(!isnull(owner))
-		. *= 0.5
-
 /obj/item/reagent_containers/food/snacks/grown/Value(base)
 	. = ..()
 	. += seed.Value(FALSE)
@@ -124,13 +118,3 @@
 	. = ..()
 	if(battery_effect)
 		. += round(battery_effect.Value() * 0.25)
-
-/obj/item/mind_engraver_chip/Value(base)
-	. = ..()
-	if(istype(stored_data))
-		. += stored_data.Value()
-
-/mob/living/carbon/slime/Value(base)
-	. = ..()
-	var/atom/core_type = GetCoreType()
-	. += get_value(core_type)

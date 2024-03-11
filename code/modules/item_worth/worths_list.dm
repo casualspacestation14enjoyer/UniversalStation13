@@ -610,7 +610,6 @@ var/list/worths = list(
 					/obj/item/mop/advanced = 250,
 					/obj/item/mop = 25,
 					/obj/item/spellbook = -8000,
-					/obj/item/mind_engraver_chip = -5000,
 					/obj/item = 5,
 //STRUCTURES,
 					/obj/structure/dogbed = 15,

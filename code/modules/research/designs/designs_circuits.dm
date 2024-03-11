@@ -725,14 +725,12 @@
 	name = "receiving trade beacon"
 	id = "trade_receiving"
 	req_tech = list(TECH_DATA = 4, TECH_BLUESPACE = 4)
-	build_path = /obj/item/stock_parts/circuitboard/trade_beacon/receiving
 	sort_string = "QAAAA"
 
 /datum/design/circuit/trade_beacon_sending
 	name = "sending trade beacon"
 	id = "trade_sending"
 	req_tech = list(TECH_DATA = 4, TECH_BLUESPACE = 4)
-	build_path = /obj/item/stock_parts/circuitboard/trade_beacon/sending
 	sort_string = "QAAAB"
 
 /datum/design/circuit/shield_generator

@@ -3,6 +3,7 @@
 //stuff like that.
 
 var/list/worths = list(
+					/obj/item/citizen_ration_finished = 200, // rations :)
 //ROBOT ASSEMBLIES,
 					/obj/item/device/bot_kit = 300,
 //REAGENT CONTAINERS,

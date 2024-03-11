@@ -62,6 +62,15 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/asteroid,
 /area/outside)
+"aw" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/light/dystopian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "ax" = (
 /obj/item/reagent_containers/pill/pod/orange,
 /turf/simulated/floor/tiled/old_tile{
@@ -342,6 +351,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
+"cL" = (
+/obj/machinery/trade_beacon/sending,
+/turf/simulated/floor/tiled/techfloor,
+/area/cmb/factory)
 "cM" = (
 /obj/structure/hygiene/toilet{
 	dir = 1
@@ -353,6 +366,10 @@
 /obj/effect/decal/cleanable/greenglow,
 /turf/simulated/floor/tiled/old_tile,
 /area/cmb/misc_buildings)
+"cO" = (
+/obj/machinery/camera/network/city,
+/turf/simulated/floor/tiled/techfloor,
+/area/cmb/factory)
 "cP" = (
 /obj/structure/hygiene/shower,
 /obj/effect/decal/cleanable/dirt,
@@ -1721,7 +1738,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/medbay)
 "mn" = (
-/obj/machinery/couponreclaim,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
 "mr" = (
@@ -2352,6 +2374,12 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/asteroid,
 /area/outside)
+"qS" = (
+/obj/machinery/door/window{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "qV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3591,6 +3619,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/cmb/medbay)
+"zr" = (
+/obj/machinery/trade_beacon/receiving,
+/turf/simulated/floor/tiled/techfloor,
+/area/cmb/factory)
 "zt" = (
 /obj/machinery/vending/wallmed1{
 	dir = 8;
@@ -3792,6 +3824,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/cmb/misc_buildings)
+"AW" = (
+/obj/structure/railing/mapped,
+/obj/machinery/light/dystopian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "AY" = (
 /obj/machinery/computer/modular/preset/security{
 	dir = 8
@@ -4199,6 +4238,15 @@
 /obj/random/maintenance/clean,
 /turf/simulated/floor/tiled/steel_grid,
 /area/cmb/misc_buildings)
+"Dn" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/machinery/light/dystopian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "Do" = (
 /turf/simulated/floor/wood/mahogany,
 /area/cmb/misc_buildings)
@@ -4252,6 +4300,10 @@
 /obj/structure/curtain/open,
 /turf/simulated/floor/plating,
 /area/cmb/misc_buildings)
+"DF" = (
+/obj/structure/bed/chair/bench,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "DJ" = (
 /obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/tiled/cmb_tiled/b,
@@ -5446,9 +5498,8 @@
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
 "LP" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4
-	},
+/obj/machinery/light/dystopian,
+/obj/structure/bed/chair/bench,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
 "LQ" = (
@@ -5760,6 +5811,15 @@
 /obj/structure/grille,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
+"NP" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/machinery/light/dystopian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "NR" = (
 /obj/item/material/shard,
 /obj/effect/decal/cleanable/dirt,
@@ -5861,6 +5921,10 @@
 "Oz" = (
 /turf/simulated/floor/tiled/road,
 /area/outside)
+"OA" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "OC" = (
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled/cmb_tiled/c,
@@ -6175,6 +6239,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/cmb/misc_buildings)
+"QX" = (
+/obj/machinery/computer/modular/preset/civilian,
+/turf/simulated/floor/tiled/techfloor,
+/area/cmb/factory)
 "Ra" = (
 /obj/machinery/light/dystopian{
 	dir = 1
@@ -6404,6 +6472,12 @@
 "So" = (
 /turf/simulated/floor/reinforced,
 /area/cmb/administration_access)
+"Su" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "Sw" = (
 /obj/effect/wallframe_spawn,
 /turf/simulated/floor/lino,
@@ -6640,7 +6714,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
 "TA" = (
-/obj/machinery/deliverer,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/cmb/factory)
 "TD" = (
@@ -6927,6 +7003,13 @@
 "VQ" = (
 /turf/simulated/wall,
 /area/cmb/factory)
+"VR" = (
+/obj/structure/railing/mapped,
+/obj/machinery/light/dystopian{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "VT" = (
 /turf/simulated/floor/plating,
 /area/turbolift/administration_elevator_1)
@@ -6938,6 +7021,12 @@
 	name = "wooden bridge"
 	},
 /area/space)
+"VY" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "Wb" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -7174,6 +7263,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/outside)
+"Xu" = (
+/obj/structure/railing/mapped,
+/obj/machinery/light/dystopian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "Xw" = (
 /obj/structure/table/woodentable,
 /obj/effect/decal/cleanable/dirt,
@@ -7334,6 +7430,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/cmb_tiled/trainstation,
 /area/cmb/misc_buildings)
+"YZ" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/machinery/light/dystopian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "Za" = (
 /obj/structure/table/rack,
 /obj/item/paper_bin,
@@ -82654,19 +82759,19 @@ cm
 cm
 cm
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
+VQ
 Bu
 Bu
 Bu
@@ -82911,19 +83016,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+tz
+Su
+Su
+aw
+Su
+Su
+tz
+cF
+tz
+cF
+tz
+VQ
 Bu
 Bu
 Bu
@@ -83168,19 +83273,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+OA
+lz
+lz
+lz
+lz
+lz
+TA
+lz
+lz
+lz
+tz
+VQ
 Bu
 Bu
 Bu
@@ -83425,19 +83530,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+OA
+lz
+lz
+lz
+lz
+lz
+TA
+ds
+lo
+lo
+tz
+VQ
 Bu
 Bu
 Bu
@@ -83682,19 +83787,19 @@ OO
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+VR
+lz
+lz
+cL
+lz
+lz
+qS
+lz
+lo
+lo
+an
+VQ
 Bu
 Bu
 Bu
@@ -83939,19 +84044,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+OA
+cO
+lz
+lz
+lz
+lz
+TA
+lz
+lz
+lz
+tz
+VQ
 Bu
 Bu
 Bu
@@ -84196,19 +84301,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+AW
+lz
+lz
+lz
+lz
+lz
+Dn
+lz
+lz
+lz
+tz
+VQ
 Bu
 Bu
 Bu
@@ -84453,19 +84558,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+VQ
+mn
+mn
+mn
+mn
+mn
+VQ
+QX
+ds
+lz
+DF
+VQ
 Bu
 Bu
 Bu
@@ -84710,19 +84815,19 @@ OO
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+Xu
+lz
+lz
+lz
+lz
+lz
+NP
+lz
+lz
+lz
+DF
+VQ
 Bu
 Bu
 Bu
@@ -84967,19 +85072,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+OA
+lz
+lz
+lz
+lz
+lz
+TA
+lz
+lz
+lz
+tz
+VQ
 Bu
 Bu
 Bu
@@ -85224,19 +85329,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+VR
+lz
+lz
+zr
+lz
+lz
+qS
+lz
+lz
+ds
+LP
+VQ
 Bu
 Bu
 Bu
@@ -85481,19 +85586,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+OA
+cO
+lz
+lz
+lz
+lz
+TA
+ds
+lz
+lz
+DF
+VQ
 Bu
 Bu
 Bu
@@ -85738,19 +85843,19 @@ hA
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+OA
+lz
+lz
+lz
+lz
+lz
+TA
+lz
+lz
+lz
+tz
+VQ
 Bu
 Bu
 Bu
@@ -85995,19 +86100,19 @@ OO
 hA
 Jj
 Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
-Bu
+VQ
+tz
+VY
+VY
+YZ
+VY
+VY
+tz
+dk
+tz
+dk
+tz
+VQ
 Bu
 Bu
 Bu
@@ -86261,10 +86366,10 @@ VQ
 VQ
 VQ
 VQ
+tz
 VQ
 VQ
 VQ
-Bu
 Bu
 Bu
 Bu
@@ -86516,7 +86621,7 @@ tz
 HU
 tz
 cF
-LP
+tz
 tz
 tz
 tz
@@ -89082,7 +89187,7 @@ VQ
 VQ
 VQ
 VQ
-mn
+tz
 lz
 lz
 ds
@@ -89339,7 +89444,7 @@ To
 qu
 Yc
 VQ
-TA
+tz
 lz
 lz
 lz

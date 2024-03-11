@@ -44,7 +44,6 @@
 		FACTION_REBORN_CHRISTIAN_CHURCH = FACTION_STATE_ENEMY,
 		FACTION_TERRASENATE_OBS = FACTION_STATE_ENEMY,
 		)
-	access_required = access_supplylink_terragov
 
 /datum/trade_faction/solgov
 	name = FACTION_SOL_CENTRAL
@@ -57,7 +56,6 @@
 		FACTION_REBORN_CHRISTIAN_CHURCH = FACTION_STATE_RIVAL,
 		FACTION_TERRASENATE_OBS = FACTION_STATE_WAR,
 		)
-	access_required = access_supplylink_solgov
 
 /datum/trade_faction/isc
 	name = FACTION_ISC
@@ -70,7 +68,6 @@
 		FACTION_REBORN_CHRISTIAN_CHURCH = FACTION_STATE_ALLY,
 		FACTION_TERRASENATE_OBS = FACTION_STATE_ENEMY,
 		)
-	access_required = access_supplylink_isc
 
 // Corpos
 
@@ -85,7 +82,6 @@
 		FACTION_REBORN_CHRISTIAN_CHURCH = FACTION_STATE_ALLY,
 		FACTION_TERRASENATE_OBS = FACTION_STATE_RIVAL,
 		)
-	access_required = access_supplylink_nanotrasen
 
 /datum/trade_faction/cybersun
 	name = FACTION_CYBERSUN
@@ -95,42 +91,4 @@
 		FACTION_SOL_CENTRAL = FACTION_STATE_WELCOMING,
 		FACTION_ISC = FACTION_STATE_ALLY,
 		FACTION_NANOTRASEN = FACTION_STATE_ALLY,
-		FACTION_REBORN_CHRISTIAN_CHURCH = FACTION_STATE_ALLY,
-		FACTION_TERRASENATE_OBS = FACTION_STATE_ANIMOSITY,
 		)
-	access_required = access_supplylink_cybersun
-
-// Member states of ISC
-
-/datum/trade_faction/reborcn_church
-	name = FACTION_REBORN_CHRISTIAN_CHURCH
-	desc = "A part of the Reborn Christian Church, a fanatical state focused on enforcing the will of Pontifex Maximus."
-	relationship = list(
-		FACTION_INDEPENDENT = FACTION_STATE_ANIMOSITY,
-		FACTION_TERRAGOV = FACTION_STATE_ENEMY,
-		FACTION_SOL_CENTRAL = FACTION_STATE_RIVAL,
-		FACTION_ISC = FACTION_STATE_ALLY,
-		FACTION_NANOTRASEN = FACTION_STATE_ALLY,
-		FACTION_CYBERSUN = FACTION_STATE_ALLY,
-		FACTION_TERRASENATE_OBS = FACTION_STATE_ENEMY,
-		)
-	access_required = access_supplylink_reborn_church
-
-// Purely independent states
-
-// Misc
-
-/datum/trade_faction/obs
-	name = FACTION_TERRASENATE_OBS
-	desc = "A part of the Order of the Black Sun, a xenophobic ultra-nationalist terrorist group."
-	relationship = list(
-		FACTION_INDEPENDENT = FACTION_STATE_RIVAL,
-		FACTION_TERRAGOV = FACTION_STATE_ENEMY,
-		FACTION_SOL_CENTRAL = FACTION_STATE_WAR,
-		FACTION_ISC = FACTION_STATE_ENEMY,
-		FACTION_NANOTRASEN = FACTION_STATE_RIVAL,
-		// OBS trades more with Cybersun,
-		FACTION_CYBERSUN = FACTION_STATE_ANIMOSITY,
-		FACTION_REBORN_CHRISTIAN_CHURCH = FACTION_STATE_ENEMY,
-		)
-	access_required = access_supplylink_obs

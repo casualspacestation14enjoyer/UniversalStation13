@@ -251,6 +251,7 @@
 	damage = 50
 	armor_penetration = 30
 	muzzle_type = /obj/effect/projectile/muzzle/pulse
+	icon_state = null // ¯\_(ツ)_/¯
 
 /obj/item/projectile/bullet/rifle/flame
 	name = "incendiary bullet"

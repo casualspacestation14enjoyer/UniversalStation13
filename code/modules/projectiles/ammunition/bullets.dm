@@ -172,6 +172,7 @@
 
 /obj/item/ammo_casing/rifle/osipr
 	name = "pulse-plug casing"
+	icon_state = "riflecasing_pulse"
 	projectile_type = /obj/item/projectile/bullet/rifle/osipr
 
 /obj/item/ammo_casing/rifle/flame

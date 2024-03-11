@@ -4469,6 +4469,12 @@
 /obj/structure/street_light,
 /turf/simulated/floor/tiled/sidewalk,
 /area/outside)
+"EG" = (
+/obj/machinery/atm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/cmb/factory)
 "EJ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -6240,7 +6246,7 @@
 /turf/simulated/floor/tiled/cmb_tiled/b,
 /area/cmb/misc_buildings)
 "QX" = (
-/obj/machinery/computer/modular/preset/civilian,
+/obj/machinery/computer/modular/preset/cardslot/supply,
 /turf/simulated/floor/tiled/techfloor,
 /area/cmb/factory)
 "Ra" = (
@@ -87140,7 +87146,7 @@ lz
 lz
 an
 VQ
-tz
+EG
 lz
 lz
 lz

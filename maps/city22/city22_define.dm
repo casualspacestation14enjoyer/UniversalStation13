@@ -13,6 +13,9 @@
 
 	supply_currency_name = "Combine Civilian Wellness Requisition Points"
 	supply_currency_name_short = "CCWRP"
+	local_currency_name = "tokens"
+	local_currency_name_singular = "token"
+	local_currency_name_short = "Tkns."
 
 	lobby_screens = list('maps/city22/consul.gif')
 	lobby_tracks = list(/decl/audio/track/harvester)

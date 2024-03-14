@@ -122,7 +122,7 @@
 	icon = 'icons/effects/static.dmi'
 	icon_state = "1 light"
 	screen_loc = ui_entire_screen
-	alpha = 200
+	alpha = 127
 
 /obj/screen/fullscreen/noise/moderate
 	icon = 'icons/effects/static.dmi'

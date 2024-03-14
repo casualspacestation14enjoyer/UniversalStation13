@@ -4,7 +4,7 @@
 
 /datum/vote/transfer
 	name = "transfer"
-	question = "End the shift?"
+	question = "End the day?"
 
 /datum/vote/transfer/can_run(mob/creator, automatic)
 	if(!(. = ..()))
